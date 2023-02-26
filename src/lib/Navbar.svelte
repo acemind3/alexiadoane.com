@@ -108,7 +108,8 @@
       @include smallBreakpoint {
         justify-content: center;
         flex-direction: column;
-        gap: 24px;
+        gap: 16px;
+        padding: 16px 64px;
       }
     }
     &--center {

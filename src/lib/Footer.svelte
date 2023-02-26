@@ -122,17 +122,17 @@
       align-items: center;
       padding: 96px;
       padding-top: 192px;
-    }
 
-    @include mediumBreakpoint {
-      flex-direction: column;
-      gap: 32px;
-      padding-bottom: 64px;
-    }
+      @include mediumBreakpoint {
+        flex-direction: column;
+        gap: 32px;
+        padding-bottom: 64px;
+      }
 
-    @include smallBreakpoint {
-      padding: 32px;
-      padding-top: 64px;
+      @include smallBreakpoint {
+        padding: 32px;
+        padding-top: 64px;
+      }
     }
 
     .call-to-action {
