@@ -1,0 +1,24 @@
+@mixin smallBreakpoint {
+    @media screen and (max-width: 869px) {
+        @content;
+    }
+}
+@mixin mediumBreakpoint {
+    @media screen and (max-width: 1252px) {
+        @content;
+    }
+}
+
+//fonts
+$primary-font: "Libre Franklin", sans-serif;
+$secondary-font: "Gloock", serif;
+
+//colors
+$off-white: #f4f4f4;
+$almost-white: #FBFBFB;
+$charcoal: #1c1c1c;
+$thick-blue: #4F64DD;
+$royal-lavender: #8553AC;
+
+$light-blue: rgba(84, 182, 182, 0.2);
+$cool-gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
