@@ -132,6 +132,10 @@
     justify-content: center;
     gap: 16px;
 
+    @include smallBreakpoint {
+      padding: 80px 0px;
+    }
+
     &__item {
       position: relative;
       transition: all 0.2s ease-in;

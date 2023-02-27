@@ -121,6 +121,7 @@
           margin-bottom: 24px;
           font-size: 24px;
           font-weight: 200;
+          line-height: 34px;
 
           @include smallBreakpoint {
             text-align: center;

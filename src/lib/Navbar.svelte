@@ -99,7 +99,7 @@
       align-items: center;
       padding: 32px 64px;
       margin: auto;
-      max-width: 83rem;
+      max-width: 115rem;
 
       &--space-apart {
         justify-content: space-between;
@@ -150,7 +150,7 @@
           position: absolute;
           left: 0px;
           height: 2px;
-          background: $charcoal;
+          background: $cool-gradient;
           content: "";
           opacity: 0;
           transition: all 0.3s;

@@ -79,7 +79,7 @@
     bottom: 0;
     right: 2rem;
 
-    animation: slideAndFadeIntoView 1s forwards;
+    animation: slideAndFadeIntoView 1.5s forwards;
   }
 
   @keyframes slideUp {
@@ -105,10 +105,11 @@
     left: 0;
 
     @include mediumBreakpoint {
-      left: -461px;
+      left: -418px;
+      top: 301px;
     }
     @include smallBreakpoint {
-      left: -970px;
+      left: -785px;
     }
   }
 
