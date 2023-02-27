@@ -14,13 +14,13 @@
       link: "/beernuts",
     },
     {
-      src: "placeholder-img.jpg",
-      link: "",
+      src: "iecam-thumbnail.png",
+      link: "https://pixotech.com/work/illinois-early-childhood-asset-map-website/",
       isExternalLink: true,
     },
     {
-      src: "placeholder-img.jpg",
-      link: "",
+      src: "TAG_thumbnail.jpg",
+      link: "/tag",
     },
     {
       src: "placeholder-img.jpg",
@@ -160,7 +160,7 @@
       transition: transform 0.2s ease-in;
 
       &_external-link-wrapper {
-        background-color: $almost-white;
+        background-color: $off-white;
         width: 24px;
         height: 24px;
         padding: 12px;

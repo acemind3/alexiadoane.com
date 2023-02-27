@@ -6,6 +6,7 @@
   import HeroTitle from "../../lib/HeroTitle.svelte";
   import Navbar from "../../lib/Navbar.svelte";
   import TwoColumnContentBlock from "../../lib/TwoColumnContentBlock.svelte";
+  import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
     "Art direction",
@@ -68,41 +69,42 @@
     </p>
   </div>
 </TwoColumnContentBlock>
-<Gallery
+<div class="video-container">
+  <video class="beernuts-video" autoplay loop>
+    <source src="/beernuts-website.webm" type="video/webm" />
+  </video>
+</div>
+<GridGallery
   images={[
     {
-      src: "/beernuts-camping.jpg",
-      altText: "placeholder",
-      columnWidth: 2,
-    },
-    {
-      src: "/beernuts-camping.jpg",
-      altText: "placeholder",
+      src: "/beernuts-family-eating.webp",
+      altText: "family eating at picnic table with beernuts snacks",
       columnWidth: 1,
     },
     {
-      src: "/beernuts-camping.jpg",
-      altText: "placeholder",
+      src: "/beernuts-canoe.webp",
+      altText: "two people canoeing down river with beernuts tshirts on",
       columnWidth: 1,
     },
     {
-      src: "/beernuts-feature.jpg",
-      altText: "placeholder",
+      src: "/beernuts-product.webp",
+      altText: "beernuts snack on bar counter with beer",
       columnWidth: 1,
     },
     {
-      src: "/placeholder-img.jpg",
-      altText: "placeholder",
+      src: "/beernuts-bar.webp",
+      altText: "man sitting at bar with beernuts glass",
       columnWidth: 1,
     },
     {
-      src: "/beernuts-camping.jpg",
-      altText: "placeholder",
-      columnWidth: 2,
+      src: "/beernuts-boat-peanuts.webp",
+      altText: "close up of hand grabing peanut from beernuts container",
+      columnWidth: 1,
     },
     {
-      src: "/placeholder-img.jpg",
-      altText: "placeholder",
+      src: "/beernuts-camping.webp",
+      altText:
+        "three friend sitting in chairs around campsite with beernuts cooler",
       columnWidth: 1,
     },
   ]}
@@ -112,6 +114,16 @@
 
 <style lang="scss">
   @import "../../style/global.scss";
+
+  .video-container {
+    margin: auto;
+    max-width: 115rem;
+  }
+
+  .beernuts-video {
+    width: 100%;
+    height: auto;
+  }
 
   .hero-container {
     margin: auto;

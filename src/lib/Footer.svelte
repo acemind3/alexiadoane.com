@@ -143,7 +143,7 @@
       padding-left: 40px;
 
       @include smallBreakpoint {
-        font-size: 48px;
+        font-size: 32px;
         padding-left: 32px;
       }
     }
