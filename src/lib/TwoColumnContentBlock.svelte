@@ -92,8 +92,9 @@
         }
 
         @include smallBreakpoint {
-          font-size: 24px;
-          line-height: 40px;
+          font-size: 20px;
+          line-height: 32px;
+          padding-left: 16px;
         }
 
         ul,
@@ -125,6 +126,8 @@
 
           @include smallBreakpoint {
             text-align: center;
+            font-size: 20px;
+            line-height: 24px;
           }
         }
       }
