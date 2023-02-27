@@ -2,13 +2,18 @@
   export let imageUrl: string;
   export let spacing: "around" | "between" = "around";
   export let responsiveBackgroundIsWhite: boolean = true;
+  export let imagePosition: "top" | "overlap" = "overlap";
 </script>
 
 <div
   class="hero hero__spacing--{spacing}"
   class:hero__responsive-color={responsiveBackgroundIsWhite}
 >
-  <img class="hero-image" src={imageUrl} alt="hero" />
+  <img
+    class="hero-image hero-image__imagePosition--{imagePosition}"
+    src={imageUrl}
+    alt="hero"
+  />
   <slot />
 </div>
 
@@ -16,14 +21,25 @@
   @import "../style/global.scss";
 
   .hero-image {
-    max-width: 55%;
     clip-path: polygon(100% 0, 100% 41%, 54% 100%, 0 100%, 0 0);
+
+    &__imagePosition--top {
+      top: 0px;
+      max-width: 100%;
+    }
+
+    &__imagePosition--overlap {
+      top: 50px;
+      max-width: 95%;
+      position: relative;
+    }
 
     @include mediumBreakpoint {
       height: auto;
       max-width: 80%;
       width: 80%;
       min-height: unset;
+      top: 0px;
     }
     @include smallBreakpoint {
       width: 100%;
@@ -47,10 +63,13 @@
   .hero {
     position: relative;
     font-size: 170px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: flex-start;
+    // gap: 64px;
 
     &__spacing--around {
       justify-content: space-around;
@@ -59,7 +78,9 @@
       justify-content: space-between;
     }
     @include mediumBreakpoint {
-      flex-direction: column;
+      // flex-direction: column;
+      // gap: 0px;
+      grid-template-columns: 1fr;
     }
     &__responsive-color {
       @include mediumBreakpoint {

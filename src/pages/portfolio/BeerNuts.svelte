@@ -18,10 +18,14 @@
 
 <Navbar />
 <div class="hero-container">
-  <HeroImage imageUrl="/beernuts-feature.jpg" spacing="between">
+  <HeroImage
+    imageUrl="/beernuts-feature.jpg"
+    spacing="between"
+    imagePosition="overlap"
+  >
     <HeroTitle
       websiteUrl="https://google.com"
-      titleText="Beer Nuts Photoshoot That is a Long Title and Maybe Even Longer"
+      titleText="Beer Nuts"
       tags={["Website Design", "Photoshoot"]}
     />
   </HeroImage>

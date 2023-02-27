@@ -18,6 +18,7 @@
       spacing="between"
       imageUrl="/ace-pic.jpg"
       responsiveBackgroundIsWhite={false}
+      imagePosition="top"
     >
       <img
         class="alex-wordmark"
@@ -72,6 +73,11 @@
   .homepage-hero-container {
     margin: 0 auto;
     max-width: 115rem;
+
+    .homepage-hero-image {
+      width: 100%;
+      top: 0px;
+    }
   }
   .alex-wordmark {
     width: clamp(200px, 60vw, 800px);

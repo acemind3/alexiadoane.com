@@ -27,7 +27,8 @@
     flex-direction: column;
     gap: 24px;
     background-color: $almost-white;
-    margin-left: -100vw;
+    // margin-left: -100vw;
+    margin-left: -95vw;
     padding-left: 100vw;
     margin-right: -100vw;
     padding-right: 100vw;
@@ -38,8 +39,9 @@
       margin-left: 0;
       padding-left: 96px;
       width: 100%;
-      padding-top: 64px;
+      // padding-top: 64px;
       padding-bottom: 64px;
+      padding-top: 70px;
     }
 
     @include smallBreakpoint {
