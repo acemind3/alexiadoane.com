@@ -132,6 +132,7 @@
       @include smallBreakpoint {
         padding: 32px;
         padding-top: 64px;
+        padding-bottom: 120px;
       }
     }
 
