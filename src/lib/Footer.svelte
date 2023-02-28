@@ -161,9 +161,6 @@
         &:hover {
           opacity: 0.5;
         }
-
-        svg path {
-        }
       }
 
       &__icon {

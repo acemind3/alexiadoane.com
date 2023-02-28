@@ -38,10 +38,10 @@
   }
   .gallery {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
     gap: $gap-size;
     padding: 0 $gutter-size;
+    justify-items: center;
 
     @include smallBreakpoint {
       padding: 0 $small-gutter-size;

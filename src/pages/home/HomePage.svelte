@@ -106,7 +106,7 @@
     background: url("/diamond-bg.svg");
     z-index: 0;
     position: absolute;
-    height: 2031px;
+    height: 100%;
     width: 1000vw;
     left: 0;
 

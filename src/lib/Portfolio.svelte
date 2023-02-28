@@ -32,7 +32,9 @@
     },
     {
       src: "placeholder-img.jpg",
-      link: "",
+      link: "/pixo",
+      title: "Pixo",
+      tags: ["Brand Identity | Website Design"],
     },
     {
       src: "placeholder-img.jpg",
