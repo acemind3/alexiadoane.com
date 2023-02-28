@@ -53,10 +53,6 @@
       height: 100%;
       object-fit: cover;
 
-      @include smallBreakpoint {
-        max-width: calc(100% - $small-gutter-size);
-      }
-
       &-wrapper {
         display: grid;
 
@@ -70,7 +66,9 @@
         &--width-2 {
           grid-column: span 2;
 
-          max-width: calc(100% - $gutter-size);
+          @include smallBreakpoint {
+            grid-column: span 1;
+          }
         }
       }
     }

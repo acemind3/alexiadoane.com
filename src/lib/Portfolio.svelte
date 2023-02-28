@@ -31,14 +31,16 @@
       tags: ["Brand Identity"],
     },
     {
-      src: "placeholder-img.jpg",
+      src: "pixo-thumbnail.jpg",
       link: "/pixo",
       title: "Pixo",
       tags: ["Brand Identity | Website Design"],
     },
     {
       src: "placeholder-img.jpg",
-      link: "",
+      link: "/pixo",
+      title: "Safer Illinois",
+      tags: ["UI/UX Design"],
     },
     {
       src: "placeholder-img.jpg",
@@ -177,6 +179,7 @@
         font-weight: 700;
         text-transform: uppercase;
         color: $charcoal;
+        line-height: 24px;
       }
     }
 
@@ -185,7 +188,7 @@
       transition: all 0.2s ease-in;
       display: flex;
       flex-direction: column;
-      border: 1px solid $charcoal;
+      border: 1px solid $industrial-gray;
       overflow: hidden;
       width: 100%;
       height: 100%;
@@ -203,7 +206,7 @@
 
       &-wrapper {
         width: 320px;
-        border: 1px solid $charcoal;
+        border: 1px solid $industrial-gray;
         padding-bottom: 16px;
 
         &:hover {

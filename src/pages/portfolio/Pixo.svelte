@@ -13,7 +13,8 @@
     "brand identity",
     "website design",
     "print design",
-    "Collaboration with developers and content strategists",
+    "animation",
+    "collaboration with developers and content strategists",
     "vendor coordination",
   ];
 </script>
@@ -21,14 +22,14 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/beernuts-feature.jpg"
+    imageUrl="/pixo-logo.gif"
     spacing="between"
     imagePosition="overlap"
   >
     <HeroTitle
-      websiteUrl="https://google.com"
-      titleText="Beer Nuts"
-      tags={["Website Design", "Photoshoot"]}
+      websiteUrl="https://pixotech.com/"
+      titleText="Pixo"
+      tags={["Brand Identity", "Website Design"]}
     />
   </HeroImage>
 </div>
@@ -41,30 +42,15 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      Beer Nuts is a national brand snack company based out of Bloomington, IL.
-      I planned and art directed a 3 day photo/videoshoot.
-    </p>
-
-    <p>This included:</p>
-    <ul class="bulleted-list">
-      <li>developing a prop and shot list</li>
-      <li>casting, scheduling, and organizing models</li>
-      <li>scouting, contacting, and scheduling locations</li>
-      <li>
-        organizing and communicating with the videographer and photographer
-      </li>
-      <li>art directing</li>
-    </ul>
-
-    <p>
-      A new website was later designed and developed using the imagery captured
-      during the photo/videoshoot. The website phase consisted of developing a
-      wireframe, design mockups and collaboration with developers to implement.
+      I played an integral role in rebranding Pixo and designing new marketing
+      materials. My team facilitated and led work sessions to develop the new
+      brand identity and messaging. We developed a brand identity guide and
+      implemented a new website as part of this internal project.
     </p>
 
     <p class="designed-at">
       Work Designed at
-      <AceLink href="https://surface51.com/">Surface 51</AceLink>
+      <AceLink href="https://pixotech.com/">Pixo</AceLink>
     </p>
   </div>
 </TwoColumnContentBlock>
@@ -75,40 +61,19 @@
   </div> -->
 
 <div class="gif-container">
-  <img class="beernuts-gif" src="/beernuts-website.gif" />
+  <img class="beernuts-gif" src="/pixo-website-scroll.gif" />
 </div>
 <GridGallery
   images={[
     {
-      src: "/beernuts-family-eating.webp",
+      src: "/pixo-brand-guide.jpg",
       altText: "family eating at picnic table with beernuts snacks",
-      columnWidth: 1,
+      columnWidth: 2,
     },
     {
-      src: "/beernuts-canoe.webp",
+      src: "/pixo-brochures.jpg",
       altText: "two people canoeing down river with beernuts tshirts on",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-product.webp",
-      altText: "beernuts snack on bar counter with beer",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-bar.webp",
-      altText: "man sitting at bar with beernuts glass",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-boat-peanuts.webp",
-      altText: "close up of hand grabing peanut from beernuts container",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-camping.webp",
-      altText:
-        "three friend sitting in chairs around campsite with beernuts cooler",
-      columnWidth: 1,
+      columnWidth: 2,
     },
   ]}
 />
