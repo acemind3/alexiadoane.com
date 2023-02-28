@@ -69,10 +69,14 @@
     </p>
   </div>
 </TwoColumnContentBlock>
-<div class="video-container">
-  <video class="beernuts-video" autoplay loop>
+<!-- <div class="video-container">
+  <video class="beernuts-video" autoplay loop playsinline>
     <source src="/beernuts-website.webm" type="video/webm" />
   </video>
+</div> -->
+
+<div class="gif-container">
+  <img class="beernuts-gif" src="/beernuts-website.gif" />
 </div>
 <GridGallery
   images={[
@@ -115,12 +119,22 @@
 <style lang="scss">
   @import "../../style/global.scss";
 
-  .video-container {
+  // .video-container {
+  //   margin: auto;
+  //   max-width: 115rem;
+  // }
+
+  // .beernuts-video {
+  //   width: 100%;
+  //   height: auto;
+  // }
+
+  .gif-container {
     margin: auto;
     max-width: 115rem;
   }
 
-  .beernuts-video {
+  .beernuts-gif {
     width: 100%;
     height: auto;
   }
