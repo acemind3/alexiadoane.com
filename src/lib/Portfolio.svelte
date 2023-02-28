@@ -21,12 +21,14 @@
       src: "iecam-thumbnail.png",
       link: "https://pixotech.com/work/illinois-early-childhood-asset-map-website/",
       isExternalLink: true,
+      title: "IECAM",
+      tags: ["Website Design"],
     },
     {
       src: "TAG_thumbnail.jpg",
       link: "/tag",
-      title: "Grossman Software Solutions",
-      tags: ["Web Design"],
+      title: "The Atkins Group",
+      tags: ["Brand Identity"],
     },
     {
       src: "placeholder-img.jpg",
@@ -157,7 +159,7 @@
       align-items: flex-start;
 
       padding-left: 12px;
-      gap: 8px;
+      gap: 12px;
       padding-top: 16px;
 
       &-title {
@@ -194,7 +196,7 @@
         height: auto;
         position: relative;
         z-index: 1;
-        transition: filter 0.2s ease-in;
+        transition: filter 0.2s ease-in, opacity 0.2s ease-in;
       }
 
       &-wrapper {
@@ -209,6 +211,7 @@
 
           img {
             filter: grayscale(1);
+            opacity: 0.4;
           }
         }
       }
