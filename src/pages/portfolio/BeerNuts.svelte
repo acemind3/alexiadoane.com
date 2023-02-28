@@ -11,7 +11,7 @@
   const skills = [
     "Art direction",
     "Photoshoot coordination",
-    "Collaboration with Video and Photo teams",
+    "Collaboration with video and photo teams",
     "Website design",
     "Collaboration with developers",
   ];
@@ -46,7 +46,7 @@
 
     <p>This included:</p>
     <ul class="bulleted-list">
-      <li>developing prop and shot lists</li>
+      <li>developing a prop and shot list</li>
       <li>casting, scheduling, and organizing models</li>
       <li>scouting, contacting, and scheduling locations</li>
       <li>
@@ -56,11 +56,9 @@
     </ul>
 
     <p>
-      I later designed the new Beer Nuts shopify site using the imagery captured
+      A new website was later designed and developed using the imagery captured
       during the photo/videoshoot. The website phase consisted of developing a
-      wireframe for the client, and eventually moved into a 3 round design
-      phase. Once designs were approved, I collaborated with developers to
-      implement the final website.
+      wireframe, design mockups and collaboration with developers to implement.
     </p>
 
     <p class="designed-at">
