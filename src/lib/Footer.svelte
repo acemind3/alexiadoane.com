@@ -43,7 +43,7 @@
             </defs>
           </svg>
         </a>
-        <a href="https://www.google.com/" target="blank">
+        <a href="/alex-web-resume.pdf" target="blank">
           <svg
             width="80"
             height="80"

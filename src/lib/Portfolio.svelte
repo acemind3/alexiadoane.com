@@ -15,7 +15,7 @@
       src: "beernuts_thumbnail.jpg",
       link: "/beernuts",
       title: "Beer Nuts",
-      tags: ["Web Design", "Photoshoot"],
+      tags: ["Website Design", "Photoshoot"],
     },
     {
       src: "iecam-thumbnail.png",
@@ -45,18 +45,26 @@
     {
       src: "placeholder-img.jpg",
       link: "",
+      title: "Advanced Pavement Filters",
+      tags: ["UI/UX Design"],
     },
     {
       src: "placeholder-img.jpg",
       link: "",
+      title: "Machine Learning Website",
+      tags: ["Website Design"],
     },
     {
       src: "placeholder-img.jpg",
       link: "",
+      title: "Bar Graph Tool",
+      tags: ["UI/UX Design"],
     },
     {
       src: "placeholder-img.jpg",
       link: "",
+      title: "Interactive Componenet",
+      tags: ["UI/UX Design"],
     },
   ];
 </script>

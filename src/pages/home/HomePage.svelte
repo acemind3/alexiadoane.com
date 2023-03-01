@@ -106,9 +106,10 @@
     background: url("/diamond-bg.svg");
     z-index: 0;
     position: absolute;
-    height: 100%;
+    height: 2500px;
     width: 1000vw;
     left: 0;
+    background-repeat: no-repeat;
 
     @include mediumBreakpoint {
       left: -418px;
