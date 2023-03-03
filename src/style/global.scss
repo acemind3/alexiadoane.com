@@ -14,12 +14,13 @@ $primary-font: "Libre Franklin", sans-serif;
 $secondary-font: "Gloock", serif;
 
 //colors
-$off-white: #f4f4f4;
-$almost-white: #FBFBFB;
-$charcoal: #1c1c1c;
-$thick-blue: #4F64DD;
-$royal-lavender: #8553AC;
-$industrial-gray: #AFADAD;
+$background-primary: var(--background-primary);
+$background-secondary: var(--background-secondary);
+$text-primary: var(--text-primary);
+$button-fill: var(--button-color);
+$link-color: var(--link-color);
+$text-secondary: var(--text-secondary);
 
-$light-blue: rgba(84, 182, 182, 0.2);
-$cool-gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
+$tag-color: var(--tag-color);
+$cool-gradient: var(--gradient);
+$lame-gradient: var(--lame-gradient);

@@ -30,6 +30,14 @@
     elem.onscroll = () => {};
   });
 
+  const toggleDarkMode = () => {
+    const hasLightMode = document.body.classList.contains("color__light");
+    localStorage.setItem("theme", hasLightMode ? "dark" : "light");
+
+    document.body.classList.toggle("color__light");
+    document.body.classList.toggle("color__dark");
+  };
+
   let modifierClass = "--space-apart";
   const pathName = window.location.pathname;
 
@@ -43,6 +51,8 @@
 >
   <div class="nav-container nav-container{modifierClass}">
     <a class="nav__link" href="/"> Alex Doane </a>
+
+    <button on:click={toggleDarkMode}> Toggle Dark Mode </button>
 
     <div class="nav__additional-links topBottomBordersOut">
       <a class="nav-jump-link" href={getHref("#about")}>about</a>
@@ -75,7 +85,7 @@
   }
 
   .nav {
-    background-color: $almost-white;
+    background-color: $background-secondary;
 
     &.sticky,
     &.slideOut {
@@ -124,7 +134,7 @@
       font-size: 48px;
       font-family: $secondary-font;
       text-decoration: none;
-      color: $charcoal;
+      color: $text-primary;
 
       @include smallBreakpoint {
         font-size: 32px;
@@ -140,7 +150,7 @@
       > .nav-jump-link {
         padding: 20px 10px;
         font-size: 16px;
-        color: $charcoal;
+        color: $text-primary;
         text-decoration: none;
         font-family: $primary-font;
         position: relative;

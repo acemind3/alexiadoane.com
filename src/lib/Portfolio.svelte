@@ -38,13 +38,13 @@
     },
     {
       src: "placeholder-img.jpg",
-      link: "/pixo",
+      link: "/saferillinois",
       title: "Safer Illinois",
       tags: ["UI/UX Design"],
     },
     {
       src: "placeholder-img.jpg",
-      link: "",
+      link: "/aptech",
       title: "Advanced Pavement Filters",
       tags: ["UI/UX Design"],
     },
@@ -136,6 +136,7 @@
     margin-top: 200px;
     position: relative;
     z-index: 1;
+    background-color: $background-secondary;
     .portfolio-container {
       margin: 0 auto;
       max-width: 115rem;
@@ -169,7 +170,7 @@
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-
+      padding-right: 12px;
       padding-left: 12px;
       gap: 12px;
       padding-top: 16px;
@@ -178,7 +179,7 @@
         font-weight: 200;
         font-size: 32px;
         font-family: $primary-font;
-        color: $charcoal;
+        color: $text-primary;
       }
       &-tags {
         letter-spacing: 2px;
@@ -186,7 +187,7 @@
         font-family: $primary-font;
         font-weight: 700;
         text-transform: uppercase;
-        color: $charcoal;
+        color: $text-primary;
         line-height: 24px;
       }
     }
@@ -196,7 +197,7 @@
       transition: all 0.2s ease-in;
       display: flex;
       flex-direction: column;
-      border: 1px solid $industrial-gray;
+      border: 1px solid $text-secondary;
       overflow: hidden;
       width: 100%;
       height: 100%;
@@ -214,7 +215,7 @@
 
       &-wrapper {
         width: 320px;
-        border: 1px solid $industrial-gray;
+        border: 1px solid $text-secondary;
         padding-bottom: 16px;
 
         &:hover {
@@ -237,7 +238,7 @@
       transition: transform 0.2s ease-in;
 
       &_external-link-wrapper {
-        background-color: $off-white;
+        background-color: $background-primary;
         width: 24px;
         height: 24px;
         padding: 12px;
@@ -251,7 +252,7 @@
         right: 12px;
         z-index: 3;
         svg path {
-          fill: $thick-blue;
+          fill: $button-fill;
         }
       }
     }

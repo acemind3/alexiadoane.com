@@ -1,0 +1,20 @@
+@mixin DarkTheme {
+--background-primary: #292929;
+--background-secondary: #1C1C1C;
+--text-primary: #F4F4F4;
+--button-color: #4F64DD;
+--link-color: #8553AC;
+--text-secondary: #AFADAD;
+--tag-color: rgba(84, 182, 182, 0.2);
+--gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
+}
+@mixin LightTheme {
+--background-primary: #F4F4F4;
+--background-secondary: #FBFBFB;
+--text-primary: #1C1C1C;
+--button-color: #4F64DD;
+--link-color: #8553AC;
+--text-secondary: #AFADAD;
+--tag-color: rgba(84, 182, 182, 0.2);
+--gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
+}

@@ -10,12 +10,12 @@
   @import "../style/global.scss";
 
   .ace-link {
-    color: $thick-blue;
+    color: $button-fill;
     text-decoration: underline;
     transition: color 0.25s linear;
 
     &:hover {
-      color: $royal-lavender;
+      color: $link-color;
     }
   }
 </style>

@@ -48,7 +48,7 @@
 
     /*
     & .overlay {
-      background-color: $charcoal;
+      background-color: $text-primary;
       position: absolute;
       top: 0;
       left: 0;
@@ -84,7 +84,7 @@
     }
     &__responsive-color {
       @include mediumBreakpoint {
-        background-color: $almost-white;
+        background-color: $background-secondary;
       }
     }
   }

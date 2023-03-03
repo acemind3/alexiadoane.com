@@ -108,7 +108,7 @@
     z-index: 1;
 
     &__background {
-      background-color: $almost-white;
+      background-color: $background-secondary;
     }
     &__container {
       margin: 0 auto;
@@ -138,8 +138,8 @@
 
     .call-to-action {
       font-family: $secondary-font;
-      color: $charcoal;
-      border-left: 3px solid $charcoal;
+      color: $text-primary;
+      border-left: 3px solid $text-primary;
       font-size: 64px;
       padding-left: 40px;
 

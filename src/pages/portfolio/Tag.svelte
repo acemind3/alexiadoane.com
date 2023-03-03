@@ -106,16 +106,6 @@
   //   height: auto;
   // }
 
-  .gif-container {
-    margin: auto;
-    max-width: 115rem;
-  }
-
-  .beernuts-gif {
-    width: 100%;
-    height: auto;
-  }
-
   .hero-container {
     margin: auto;
     max-width: 115rem;

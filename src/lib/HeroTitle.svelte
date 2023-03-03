@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    background-color: $almost-white;
+    background-color: $background-secondary;
     // margin-left: -100vw;
     margin-left: -95vw;
     padding-left: 100vw;

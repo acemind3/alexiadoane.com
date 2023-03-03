@@ -25,12 +25,15 @@
       height: 100%;
       top: 6px;
       left: 0;
-      background-color: $light-blue;
+      background-color: $tag-color;
       clip-path: polygon(10% 0, 100% 0%, 87% 100%, 0% 100%);
+      z-index: 0;
     }
     &__text {
       font-family: $primary-font;
       font-weight: 700;
+      z-index: 1;
+      position: relative;
 
       &--small {
         letter-spacing: 2px;

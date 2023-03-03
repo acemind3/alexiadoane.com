@@ -25,9 +25,9 @@
     imagePosition="overlap"
   >
     <HeroTitle
-      websiteUrl="https://google.com"
-      titleText="Beer Nuts"
-      tags={["Website Design", "Photoshoot"]}
+      websiteUrl="https://rokwire.org/safer-illinois-app-archive/"
+      titleText="Safer Illinois App"
+      tags={["UX Design", "UI Design"]}
     />
   </HeroImage>
 </div>
@@ -40,38 +40,41 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      Beer Nuts is a national brand snack company based out of Bloomington, IL.
-      I planned and art directed a 3 day photo/videoshoot.
+      In an effort to keep students, staff, and faculty safe to return to campus
+      in the fall of 2020, the University of Illinois developed a new saliva
+      test that could rapidly test for Covid 19. The Unversity mandated that all
+      students, faculty and staff tested regularly. For this extensive testing
+      to work, an app was created to support the process. I was part of the team
+      that brainstormed and designed the Safer Illinois app.
     </p>
 
-    <p>This included:</p>
+    <p>The Safer Illinois app:</p>
     <ul class="bulleted-list">
-      <li>developing a prop and shot list</li>
-      <li>casting, scheduling, and organizing models</li>
-      <li>scouting, contacting, and scheduling locations</li>
-      <li>
-        organizing and communicating with the videographer and photographer
-      </li>
-      <li>art directing</li>
+      <li>let students and staff know when and where to get tested</li>
+      <li>how often to get tested</li>
+      <li>their test results and what to do if they tested positive</li>
+      <li>a building access status pass based on their testing result</li>
+      <li>offer community health recommendations</li>
+      <li>notify users of proximity-based exposures</li>
     </ul>
 
     <p>
-      A new website was later designed and developed using the imagery captured
-      during the photo/videoshoot. The website phase consisted of developing a
-      wireframe, design mockups and collaboration with developers to implement.
+      The app was used during Covid to keep the community safe and healthy,
+      while inspring other universities and communities to develop their own
+      testing protocols.
     </p>
 
     <p class="designed-at">
       Work Designed at
-      <AceLink href="https://surface51.com/">Surface 51</AceLink>
+      <AceLink href="https://pixotech.com/">Pixo</AceLink>
     </p>
   </div>
 </TwoColumnContentBlock>
 <!-- <div class="video-container">
-  <video class="beernuts-video" autoplay loop playsinline>
-    <source src="/beernuts-website.webm" type="video/webm" />
-  </video>
-</div> -->
+    <video class="beernuts-video" autoplay loop playsinline>
+      <source src="/beernuts-website.webm" type="video/webm" />
+    </video>
+  </div> -->
 
 <div class="gif-container">
   <img

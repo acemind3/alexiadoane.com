@@ -55,8 +55,8 @@
     height: fit-content;
     letter-spacing: 2px;
     text-decoration: none;
-    background-color: $almost-white;
-    color: $thick-blue;
+    background-color: $background-secondary;
+    color: $button-fill;
     display: block;
     transition: all 0.5s linear;
 
@@ -81,10 +81,10 @@
     }
 
     &:hover {
-      color: $almost-white;
+      color: $background-secondary;
 
       svg path {
-        fill: $almost-white;
+        fill: $background-secondary;
       }
 
       &:before {
@@ -105,7 +105,7 @@
       width: 16px;
       height: 16px;
       path {
-        fill: $thick-blue;
+        fill: $button-fill;
         transition: fill 0.5s linear;
       }
     }

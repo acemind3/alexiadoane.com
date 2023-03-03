@@ -20,15 +20,16 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/beernuts-feature.jpg"
+    imageUrl="/aptech-feature.jpg"
     spacing="between"
     imagePosition="overlap"
   >
-    <HeroTitle
-      websiteUrl="https://google.com"
-      titleText="Beer Nuts"
-      tags={["Website Design", "Photoshoot"]}
-    />
+    <div class="hero-title-content-wrapper">
+      <HeroTitle
+        titleText="Advanced Pavement Filters"
+        tags={["UX Design", "UI Design"]}
+      />
+    </div>
   </HeroImage>
 </div>
 <TwoColumnContentBlock
@@ -68,10 +69,10 @@
   </div>
 </TwoColumnContentBlock>
 <!-- <div class="video-container">
-  <video class="beernuts-video" autoplay loop playsinline>
-    <source src="/beernuts-website.webm" type="video/webm" />
-  </video>
-</div> -->
+    <video class="beernuts-video" autoplay loop playsinline>
+      <source src="/beernuts-website.webm" type="video/webm" />
+    </video>
+  </div> -->
 
 <div class="gif-container">
   <img
@@ -144,6 +145,10 @@
   .hero-container {
     margin: auto;
     max-width: 115rem;
+
+    .hero-title-content-wrapper {
+      margin-right: 64px;
+    }
   }
   .bulleted-list {
     margin-left: 24px;

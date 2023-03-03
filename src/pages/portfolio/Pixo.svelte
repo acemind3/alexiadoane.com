@@ -61,7 +61,11 @@
   </div> -->
 
 <div class="gif-container">
-  <img class="beernuts-gif" src="/pixo-website-scroll.gif" />
+  <img
+    class="pixo-gif"
+    src="/pixo-website-scroll.gif"
+    alt="image of computer scrolling through a page on the pixo website."
+  />
 </div>
 <GridGallery
   images={[
@@ -98,7 +102,7 @@
     max-width: 115rem;
   }
 
-  .beernuts-gif {
+  .pixo-gif {
     width: 100%;
     height: auto;
   }
@@ -106,9 +110,6 @@
   .hero-container {
     margin: auto;
     max-width: 115rem;
-  }
-  .bulleted-list {
-    margin-left: 24px;
   }
   .paragraph-spacer {
     display: flex;

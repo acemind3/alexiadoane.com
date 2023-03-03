@@ -79,7 +79,7 @@
       & .description {
         font-weight: 200;
         margin-top: 40px;
-        border-left: 3px solid $charcoal;
+        border-left: 3px solid $text-primary;
         padding-left: 40px;
 
         &--large {
