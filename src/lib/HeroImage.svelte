@@ -2,6 +2,7 @@
   export let imageUrl: string;
   export let spacing: "around" | "between" = "around";
   export let responsiveBackgroundIsWhite: boolean = true;
+  export let hasTransparentImage: boolean = false;
   export let imagePosition: "top" | "overlap" = "overlap";
 </script>
 
@@ -11,6 +12,7 @@
 >
   <img
     class="hero-image hero-image__imagePosition--{imagePosition}"
+    class:hero-image__transparent-image={hasTransparentImage}
     src={imageUrl}
     alt="hero"
   />
@@ -22,6 +24,7 @@
 
   .hero-image {
     clip-path: polygon(100% 0, 100% 41%, 54% 100%, 0 100%, 0 0);
+    position: relative;
 
     &__imagePosition--top {
       top: 0px;
@@ -32,6 +35,10 @@
       top: 50px;
       max-width: 95%;
       position: relative;
+    }
+
+    &__transparent-image {
+      opacity: 0.5;
     }
 
     @include mediumBreakpoint {

@@ -1,5 +1,6 @@
 <script lang="ts">
   import AboutSection from "../../lib/AboutSection.svelte";
+  import AceDivider from "../../lib/AceDivider.svelte";
   import Footer from "../../lib/Footer.svelte";
   import HeroImage from "../../lib/HeroImage.svelte";
   import Navbar from "../../lib/Navbar.svelte";
@@ -19,6 +20,7 @@
       imageUrl="/ace-pic.jpg"
       responsiveBackgroundIsWhite={false}
       imagePosition="top"
+      hasTransparentImage={true}
     >
       <svg
         class="alex-wordmark"
@@ -58,6 +60,9 @@
 
   <div class="content__wrapper">
     <AboutSection />
+
+    <AceDivider />
+
     <Portfolio />
     <Footer backgroundType="background" />
   </div>
