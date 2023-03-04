@@ -13,7 +13,7 @@
 </script>
 
 <button class="ace-theme-toggle" on:click={toggleDarkMode}>
-  Make it {theme == "light" ? "Dark" : "Light"}
+  make it {theme == "light" ? "dark" : "light"}
 
   {#if theme === "light"}
     <svg
@@ -74,21 +74,26 @@
   @import "../style/global.scss";
 
   .ace-theme-toggle {
-    padding: 8px 16px;
-    border: none;
-    background-color: $background-light;
-    color: $text-primary;
+    padding: 6px 16px;
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    cursor: pointer;
-    box-shadow: $theme-toggle-box-shadow;
     max-width: 140px;
+    cursor: pointer;
+    color: $text-primary;
+    line-height: 16px;
+    height: 40px;
+    // border: none;
+    // background-color: $background-light;
+    // box-shadow: $theme-toggle-box-shadow;
+    border: 1px solid $text-secondary;
+    background-color: $background-secondary;
 
     &__icon {
       margin-left: 12px;
-      width: 18px;
-      height: 18px;
+      width: 14px;
+      height: 14px;
       path {
         fill: $text-primary;
       }

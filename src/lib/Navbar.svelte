@@ -153,6 +153,7 @@
       flex-direction: row;
       gap: 32px;
       transition: all 0.3s;
+      align-items: center;
 
       > .nav-jump-link {
         padding: 20px 10px;

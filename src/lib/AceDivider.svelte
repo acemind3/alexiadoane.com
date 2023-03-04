@@ -112,7 +112,7 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 0;
-    margin-top: 40px;
+    margin-top: 120px;
     &__sound-wave {
       display: flex;
       flex-direction: row;
