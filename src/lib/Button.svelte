@@ -44,8 +44,8 @@
   @import "../style/global.scss";
   .button {
     clip-path: polygon(100% 0, 100% 77%, 93% 100%, 0 100%, 0 0);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-      inset 2px 3px 2px rgba(255, 255, 255, 0.25);
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    //   inset 2px 3px 2px rgba(255, 255, 255, 0.25);
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 500;
@@ -105,7 +105,7 @@
       width: 16px;
       height: 16px;
       path {
-        fill: $button-fill;
+        fill: $text-primary;
         transition: fill 0.5s linear;
       }
     }

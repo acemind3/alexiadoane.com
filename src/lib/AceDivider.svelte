@@ -26,7 +26,7 @@
     }
   });
 
-  const blocks: number[] = new Array(20).fill(1);
+  const blocks: number[] = new Array(45).fill(1);
 </script>
 
 <div bind:this={container} class="ace-divider">
@@ -87,10 +87,10 @@
 
 <style lang="scss">
   @import "../style/global.scss";
-  $numberOfBlocks: 20;
+  $numberOfBlocks: 45;
   $gutterWidth: 4px;
-  $blockWidth: 4px;
-  $blockHeight: 30px;
+  $blockWidth: 3px;
+  $blockHeight: 50px;
   $soundWaveWidth: calc(($gutterWidth + $blockWidth) * $numberOfBlocks);
 
   @keyframes scaleSoundWaves {
@@ -136,90 +136,190 @@
         }
         //FIRST SECTION START
         &-1 {
-          --start-height: 0.8;
-          --end-height: 1.2;
+          --start-height: 1.5;
+          --end-height: 1.4;
         }
         &-2 {
-          --start-height: 0.85;
-          --end-height: 1.25;
+          --start-height: 0.6;
+          --end-height: 1;
         }
         &-3 {
-          --start-height: 1.2;
-          --end-height: 1.8;
+          --start-height: 0.2;
+          --end-height: 0.8;
         }
         &-4 {
-          --start-height: 0.85;
+          --start-height: 1.2;
           --end-height: 1.25;
         }
         &-5 {
           --start-height: 0.85;
           --end-height: 1.25;
         }
-        //FIRST SECTION END
         &-6 {
-          --start-height: 0.2;
+          --start-height: 0.75;
           --end-height: 0.6;
         }
+        //FIRST SECTION END
         &-7 {
           --start-height: 0.2;
           --end-height: 0.6;
         }
         //SECOND SECTION START
         &-8 {
-          --start-height: 1.6;
+          --start-height: 1;
           --end-height: 2.2;
         }
         &-9 {
-          --start-height: 1.8;
+          --start-height: 1.2;
           --end-height: 2.4;
         }
         &-10 {
-          --start-height: 2;
+          --start-height: 1.4;
           --end-height: 2.6;
         }
         &-11 {
-          --start-height: 1.8;
+          --start-height: 1.6;
           --end-height: 2.4;
         }
         &-12 {
-          --start-height: 1.6;
+          --start-height: 1.8;
           --end-height: 2.2;
         }
-        //SECOND SECTION END
         &-13 {
-          --start-height: 0.2;
+          --start-height: 1.9;
           --end-height: 0.6;
         }
         &-14 {
-          --start-height: 0.2;
+          --start-height: 2;
           --end-height: 0.6;
         }
-        //THIRD SECTION START
         &-15 {
-          --start-height: 1.2;
+          --start-height: 1.6;
           --end-height: 1.6;
         }
         &-16 {
-          --start-height: 1.25;
+          --start-height: 2.3;
           --end-height: 1.65;
         }
         &-17 {
-          --start-height: 1.3;
+          --start-height: 2;
           --end-height: 1.7;
         }
         &-18 {
-          --start-height: 1.3;
+          --start-height: 1.8;
           --end-height: 1.7;
         }
         &-19 {
-          --start-height: 1.2;
+          --start-height: 1.5;
           --end-height: 1.6;
         }
         &-20 {
-          --start-height: 1.1;
+          --start-height: 0.75;
           --end-height: 1.5;
         }
+        //SECOND SECTION END
+        &-21 {
+          --start-height: 0.3;
+          --end-height: 1.5;
+        }
+        &-22 {
+          --start-height: 0.5;
+          --end-height: 1.5;
+        }
+        &-23 {
+          --start-height: 0.75;
+          --end-height: 1.5;
+        }
+        &-24 {
+          --start-height: 1;
+          --end-height: 1.5;
+        }
+        &-25 {
+          --start-height: 0.75;
+          --end-height: 1.5;
+        }
+        &-26 {
+          --start-height: 0.5;
+          --end-height: 1.65;
+        }
+        &-27 {
+          --start-height: 0.3;
+          --end-height: 1.7;
+        }
         //THIRD SECTION END
+        &-28 {
+          --start-height: 1;
+          --end-height: 1.7;
+        }
+        &-29 {
+          --start-height: 0.8;
+          --end-height: 1.7;
+        }
+        &-30 {
+          --start-height: 0.6;
+          --end-height: 1.7;
+        }
+        &-31 {
+          --start-height: 0.4;
+          --end-height: 1.2;
+        }
+        //FOURTH SECITON END
+        &-32 {
+          --start-height: 1.3;
+          --end-height: 1.25;
+        }
+        &-33 {
+          --start-height: 1.6;
+          --end-height: 1.8;
+        }
+        &-34 {
+          --start-height: 1.8;
+          --end-height: 1.25;
+        }
+        &-35 {
+          --start-height: 2;
+          --end-height: 1.25;
+        }
+        &-36 {
+          --start-height: 1.8;
+          --end-height: 0.6;
+        }
+        &-37 {
+          --start-height: 1.6;
+          --end-height: 0.6;
+        }
+        &-38 {
+          --start-height: 2.5;
+          --end-height: 2.2;
+        }
+        &-39 {
+          --start-height: 1.8;
+          --end-height: 2.4;
+        }
+        &-40 {
+          --start-height: 1.4;
+          --end-height: 2.6;
+        }
+        &-41 {
+          --start-height: 2.1;
+          --end-height: 0.6;
+        }
+        &-42 {
+          --start-height: 0.9;
+          --end-height: 2.2;
+        }
+        &-43 {
+          --start-height: 0.7;
+          --end-height: 2.4;
+        }
+        &-44 {
+          --start-height: 0.4;
+          --end-height: 2.6;
+        }
+        &-45 {
+          --start-height: 0.2;
+          --end-height: 2.6;
+        }
       }
     }
 
@@ -243,13 +343,27 @@
         }
 
         &-1 {
-          right: 52px;
+          right: 122px;
           top: -52px;
+          @include smallBreakpoint {
+            right: 52px;
+          }
+
+          @media screen and (max-width: 478px) {
+            display: none;
+          }
         }
 
         &-2 {
-          right: 10px;
+          right: 80px;
           top: -84px;
+          @include smallBreakpoint {
+            right: 4px;
+          }
+
+          @media screen and (max-width: 445px) {
+            display: none;
+          }
         }
       }
     }
