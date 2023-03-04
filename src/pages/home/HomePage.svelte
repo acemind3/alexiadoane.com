@@ -64,7 +64,7 @@
     <AceDivider />
 
     <Portfolio />
-    <Footer backgroundType="background" />
+    <Footer />
   </div>
 </div>
 
@@ -94,10 +94,11 @@
     }
   }
   .alex-wordmark {
-    width: clamp(200px, 60vw, 800px);
+    width: clamp(200px, 60vw, 700px);
     position: absolute;
     bottom: 0;
     right: 2rem;
+    height: auto;
 
     animation: slideAndFadeIntoView 1.5s forwards;
     path {

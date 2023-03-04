@@ -136,7 +136,6 @@
     margin-top: 200px;
     position: relative;
     z-index: 1;
-    background-color: $background-secondary;
     .portfolio-container {
       margin: 0 auto;
       max-width: 115rem;

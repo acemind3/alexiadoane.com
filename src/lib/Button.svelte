@@ -56,7 +56,7 @@
     letter-spacing: 2px;
     text-decoration: none;
     background-color: $background-secondary;
-    color: $button-fill;
+    color: $text-primary;
     display: block;
     transition: all 0.5s linear;
 

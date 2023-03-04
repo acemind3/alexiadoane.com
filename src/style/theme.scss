@@ -1,20 +1,28 @@
 @mixin DarkTheme {
 --background-primary: #292929;
 --background-secondary: #1C1C1C;
+--background-light: #373737;
+--background-accent: #3C3C3C;
 --text-primary: #F4F4F4;
---button-color: #4F64DD;
+--button-color: #8999F4;
 --link-color: #8553AC;
 --text-secondary: #AFADAD;
---tag-color: rgba(84, 182, 182, 0.2);
---gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
+--tag-color: #185757;
+--gradient: linear-gradient(180deg, #6E87DF 0%, #E48BFB 100%);
+
+--theme-toggle-box-shadow: inset -2px -1px 4px rgba(251, 251, 251, 0.1), inset 2px 2px 5px #1E1E1E;
 }
 @mixin LightTheme {
 --background-primary: #F4F4F4;
 --background-secondary: #FBFBFB;
+--background-light: #FBFBFB;
+--background-accent: #DFDFDF;
 --text-primary: #1C1C1C;
 --button-color: #4F64DD;
 --link-color: #8553AC;
 --text-secondary: #AFADAD;
---tag-color: rgba(84, 182, 182, 0.2);
+--tag-color: #D0E4E4;
 --gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
+
+--theme-toggle-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }

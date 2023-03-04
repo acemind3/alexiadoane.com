@@ -122,7 +122,7 @@
       &-block {
         width: $blockWidth;
         height: $blockHeight;
-        background-color: $text-secondary;
+        background-color: $background-accent;
 
         &-intersecting {
           animation: 2s scaleSoundWaves 4s ease-in-out forwards;
@@ -226,7 +226,7 @@
     &__line {
       width: calc(100vw - $soundWaveWidth);
       height: 4px;
-      background-color: $text-secondary;
+      background-color: $background-accent;
       position: relative;
       &-bird {
         width: 120px;
@@ -234,7 +234,7 @@
         position: absolute;
 
         svg path {
-          fill: $text-secondary;
+          fill: $background-accent;
         }
 
         &-wrapper {

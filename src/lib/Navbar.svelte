@@ -1,8 +1,11 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
+  import AceThemeToggle from "./AceThemeToggle.svelte";
+
   const scrollNavBar = 800;
   let show = false;
   let runSlideOutAnimation = false;
+
   onMount(() => {
     const elem = document.getElementById("app");
 
@@ -52,12 +55,11 @@
   <div class="nav-container nav-container{modifierClass}">
     <a class="nav__link" href="/"> Alex Doane </a>
 
-    <button on:click={toggleDarkMode}> Toggle Dark Mode </button>
-
     <div class="nav__additional-links topBottomBordersOut">
       <a class="nav-jump-link" href={getHref("#about")}>about</a>
       <a class="nav-jump-link" href={getHref("#portfolio")}>portfolio</a>
       <a class="nav-jump-link" href={getHref("#contact")}>contact</a>
+      <AceThemeToggle />
     </div>
   </div>
 </nav>
@@ -92,6 +94,11 @@
       position: sticky;
       z-index: 5000;
       box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+
+      @include smallBreakpoint {
+        position: static;
+        animation: none !important;
+      }
     }
 
     &.sticky {
@@ -154,6 +161,10 @@
         text-decoration: none;
         font-family: $primary-font;
         position: relative;
+
+        @include smallBreakpoint {
+          display: none;
+        }
 
         &:before,
         &:after {

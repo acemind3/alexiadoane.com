@@ -16,6 +16,8 @@ $secondary-font: "Gloock", serif;
 //colors
 $background-primary: var(--background-primary);
 $background-secondary: var(--background-secondary);
+$background-light: var(--background-light);
+$background-accent: var(--background-accent);
 $text-primary: var(--text-primary);
 $button-fill: var(--button-color);
 $link-color: var(--link-color);
@@ -24,3 +26,6 @@ $text-secondary: var(--text-secondary);
 $tag-color: var(--tag-color);
 $cool-gradient: var(--gradient);
 $lame-gradient: var(--lame-gradient);
+
+//component-specific variables
+$theme-toggle-box-shadow: var(--theme-toggle-box-shadow);
