@@ -28,7 +28,7 @@
   >
     <HeroTitle
       websiteUrl="https://pixotech.com/"
-      titleText="Pixo"
+      titleText="Pixo brand identity & website"
       tags={["Brand Identity", "Website Design"]}
     />
   </HeroImage>

@@ -24,7 +24,7 @@
   >
     <HeroTitle
       websiteUrl="https://rokwire.org/safer-illinois-app-archive/"
-      titleText="Safer Illinois App"
+      titleText="Safer Illinois app"
       tags={["UX Design", "UI Design"]}
     />
   </HeroImage>

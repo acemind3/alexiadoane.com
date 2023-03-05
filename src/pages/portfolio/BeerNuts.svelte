@@ -9,11 +9,11 @@
   import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
-    "Art direction",
-    "Photoshoot coordination",
-    "Collaboration with video and photo teams",
-    "Website design",
-    "Collaboration with developers",
+    "art direction",
+    "photoshoot coordination",
+    "collaboration with video and photo teams",
+    "website design",
+    "collaboration with developers",
   ];
 </script>
 
@@ -26,7 +26,7 @@
   >
     <HeroTitle
       websiteUrl="https://google.com"
-      titleText="Beer Nuts"
+      titleText="Beer Nuts photoshoot and website"
       tags={["Website Design", "Photoshoot"]}
     />
   </HeroImage>

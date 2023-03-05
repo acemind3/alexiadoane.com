@@ -26,7 +26,7 @@
   >
     <HeroTitle
       websiteUrl="https://www.atkinsgroup.com/"
-      titleText="The Atkins Group"
+      titleText="The Atkins Group brand identity"
       tags={["Brand Identity"]}
     />
   </HeroImage>

@@ -24,7 +24,7 @@
     imagePosition="overlap"
   >
     <HeroTitle
-      titleText="Advanced Pavement Filters"
+      titleText="Advanced filtering for pavement tool"
       tags={["UX Design", "UI Design"]}
     />
   </HeroImage>
@@ -58,17 +58,14 @@
     </p>
   </div>
 </TwoColumnContentBlock>
-<!-- <div class="video-container">
-    <video class="beernuts-video" autoplay loop playsinline>
-      <source src="/beernuts-website.webm" type="video/webm" />
-    </video>
-  </div> -->
+
 <div class="gif-container">
   <video playsinline autoplay muted loop class="aptech-gif">
-    <source src="/aptech-filters-scroll-hevc-safari.mp4" type="video/mp4" />
-    <source src="/aptech-filters-scroll-vp9-chrome.webm" type="video/webm" />
+    <source src="/aptech-filters-vp9-chrome.webm" type="video/webm" />
+    <source src="/aptech-filters-hevc-safari.mp4" type="video/mp4" />
   </video>
 </div>
+
 <Footer />
 
 <style lang="scss">
