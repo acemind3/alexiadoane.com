@@ -9,11 +9,10 @@
   import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
-    "Art direction",
-    "Photoshoot coordination",
-    "Collaboration with video and photo teams",
-    "Website design",
-    "Collaboration with developers",
+    "facilitating and leading worksessions with client",
+    "wireframming",
+    "design user interface",
+    "collaborating with engineers to design and implement",
   ];
 </script>
 
@@ -39,30 +38,23 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      Beer Nuts is a national brand snack company based out of Bloomington, IL.
-      I planned and art directed a 3 day photo/videoshoot.
+      Our client wanted to create an advanced filtering feature inside their
+      current airport pavement tool to offer their clients greater control when
+      searching for certain pavement distresses. This tool would help airports
+      find pavement patches that needed attention quicker and to plan their
+      budgets accordingly to keep their operations running smoothly.
     </p>
-
-    <p>This included:</p>
-    <ul class="bulleted-list">
-      <li>developing a prop and shot list</li>
-      <li>casting, scheduling, and organizing models</li>
-      <li>scouting, contacting, and scheduling locations</li>
-      <li>
-        organizing and communicating with the videographer and photographer
-      </li>
-      <li>art directing</li>
-    </ul>
-
     <p>
-      A new website was later designed and developed using the imagery captured
-      during the photo/videoshoot. The website phase consisted of developing a
-      wireframe, design mockups and collaboration with developers to implement.
+      The feature we designed allowed a user to filter pavement by pavement
+      condition, surface type, distress type, age, and use. Once filters were
+      applied, a user could see specific data regarding their selected filtered
+      types in a table format, as well as a map view of where a pavement that
+      met their specific filtering conditions could be located at the airport.
     </p>
 
     <p class="designed-at">
       Work Designed at
-      <AceLink href="https://surface51.com/">Surface 51</AceLink>
+      <AceLink href="https://pixotech.com/">Pixo</AceLink>
     </p>
   </div>
 </TwoColumnContentBlock>
@@ -71,50 +63,12 @@
       <source src="/beernuts-website.webm" type="video/webm" />
     </video>
   </div> -->
-
 <div class="gif-container">
-  <img
-    class="beernuts-gif"
-    src="/beernuts-website.gif"
-    alt="computer screen scrolling through beernuts homepage"
-  />
+  <video playsinline autoplay muted loop class="aptech-gif">
+    <source src="/aptech-filters-scroll-hevc-safari.mp4" type="video/mp4" />
+    <source src="/aptech-filters-scroll-vp9-chrome.webm" type="video/webm" />
+  </video>
 </div>
-<GridGallery
-  images={[
-    {
-      src: "/beernuts-family-eating.webp",
-      altText: "family eating at picnic table with beernuts snacks",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-canoe.webp",
-      altText: "two people canoeing down river with beernuts tshirts on",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-product.webp",
-      altText: "beernuts snack on bar counter with beer",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-bar.webp",
-      altText: "man sitting at bar with beernuts glass",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-boat-peanuts.webp",
-      altText: "close up of hand grabing peanut from beernuts container",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-camping.webp",
-      altText:
-        "three friend sitting in chairs around campsite with beernuts cooler",
-      columnWidth: 1,
-    },
-  ]}
-/>
-
 <Footer />
 
 <style lang="scss">
@@ -135,7 +89,7 @@
     max-width: 115rem;
   }
 
-  .beernuts-gif {
+  .aptech-gif {
     width: 100%;
     height: auto;
   }

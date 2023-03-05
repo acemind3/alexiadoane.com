@@ -54,18 +54,20 @@
     </p>
   </div>
 </TwoColumnContentBlock>
-<!-- <div class="video-container">
-    <video class="beernuts-video" autoplay loop playsinline>
-      <source src="/beernuts-website.webm" type="video/webm" />
-    </video>
-  </div> -->
 
-<div class="gif-container">
+<!-- <div class="gif-container">
   <img
     class="pixo-gif"
     src="/pixo-website-scroll.gif"
     alt="image of computer scrolling through a page on the pixo website."
   />
+</div> -->
+
+<div class="gif-container">
+  <video playsinline autoplay muted loop class="pixo-gif">
+    <source src="/pixo-website-scroll-hevc-safari.mp4" type="video/mp4" />
+    <source src="/pixo-website-scroll-vp9-chrome.webm" type="video/webm" />
+  </video>
 </div>
 <GridGallery
   images={[

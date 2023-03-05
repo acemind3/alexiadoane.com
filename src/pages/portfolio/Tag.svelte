@@ -9,12 +9,11 @@
   import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
-    "Logo design",
-    "Brand identity",
-    "Vehicle graphics",
-    "Environemental graphics",
-    "Collateral",
-    "Signage",
+    "logo design",
+    "brand identity design",
+    "environmental and vehicle graphic design",
+    "signage",
+    "vendor coordination",
   ];
 </script>
 

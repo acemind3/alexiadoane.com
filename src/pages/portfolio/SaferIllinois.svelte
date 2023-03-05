@@ -9,11 +9,9 @@
   import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
-    "Art direction",
-    "Photoshoot coordination",
-    "Collaboration with video and photo teams",
-    "Website design",
-    "Collaboration with developers",
+    "facilitate and lead worksessions with stakeholders",
+    "create wireframes and prototypes",
+    "design user interface",
   ];
 </script>
 
