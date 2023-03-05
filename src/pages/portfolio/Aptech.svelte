@@ -24,12 +24,10 @@
     spacing="between"
     imagePosition="overlap"
   >
-    <div class="hero-title-content-wrapper">
-      <HeroTitle
-        titleText="Advanced Pavement Filters"
-        tags={["UX Design", "UI Design"]}
-      />
-    </div>
+    <HeroTitle
+      titleText="Advanced Pavement Filters"
+      tags={["UX Design", "UI Design"]}
+    />
   </HeroImage>
 </div>
 <TwoColumnContentBlock
@@ -145,10 +143,6 @@
   .hero-container {
     margin: auto;
     max-width: 115rem;
-
-    .hero-title-content-wrapper {
-      margin-right: 64px;
-    }
   }
   .bulleted-list {
     margin-left: 24px;

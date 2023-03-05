@@ -89,6 +89,7 @@
     // box-shadow: $theme-toggle-box-shadow;
     border: 1px solid $text-secondary;
     background-color: $background-secondary;
+    transition: all 0.3s;
 
     &__icon {
       margin-left: 12px;
@@ -96,6 +97,13 @@
       height: 14px;
       path {
         fill: $text-primary;
+      }
+    }
+
+    &:hover {
+      border: 1px solid $button-fill;
+      path {
+        fill: $button-fill;
       }
     }
   }

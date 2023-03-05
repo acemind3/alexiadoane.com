@@ -7,21 +7,29 @@
   export let titleText: string = "";
 </script>
 
-<div class="hero-title">
-  <h1 class="hero-title__heading">{titleText}</h1>
-  <div class="hero-title__tags">
-    {#each tags as tag}
-      <SectionTitle>{tag}</SectionTitle>
-    {/each}
+<div class="hero-title-content-wrapper">
+  <div class="hero-title">
+    <h1 class="hero-title__heading">{titleText}</h1>
+    <div class="hero-title__tags">
+      {#each tags as tag}
+        <SectionTitle>{tag}</SectionTitle>
+      {/each}
+    </div>
+    {#if websiteUrl != null}
+      <Button href={websiteUrl}>Visit Website</Button>
+    {/if}
   </div>
-  {#if websiteUrl != null}
-    <Button href={websiteUrl}>Visit Website</Button>
-  {/if}
 </div>
 
 <style lang="scss">
   @import "../style/global.scss";
 
+  .hero-title-content-wrapper {
+    margin-right: 64px;
+    @include smallBreakpoint {
+      margin-right: 0px;
+    }
+  }
   .hero-title {
     display: flex;
     flex-direction: column;
