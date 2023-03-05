@@ -74,11 +74,10 @@
 </div> -->
 
 <div class="gif-container">
-  <img
-    class="beernuts-gif"
-    src="/beernuts-website.gif"
-    alt="computer screen scrolling through beernuts homepage"
-  />
+  <video playsinline autoplay muted loop class="beernuts-gif">
+    <source src="/beernuts-website-hevc-safari.mp4" type="video/mp4" />
+    <source src="/beernuts-website-vp9-chrome.webm" type="video/webm" />
+  </video>
 </div>
 <GridGallery
   images={[
