@@ -60,7 +60,8 @@
     &__heading {
       font-size: 80px;
       line-height: 82px;
-      font-family: $secondary-font;
+      font-family: $primary-font;
+      font-weight: 100;
       max-width: 80vw;
 
       @include smallBreakpoint {

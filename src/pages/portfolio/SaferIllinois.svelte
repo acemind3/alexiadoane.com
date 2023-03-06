@@ -18,7 +18,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/beernuts-feature.jpg"
+    imageUrl="/safer-illinois-feature.jpg"
     spacing="between"
     imagePosition="overlap"
   >
@@ -40,10 +40,10 @@
     <p>
       In an effort to keep students, staff, and faculty safe to return to campus
       in the fall of 2020, the University of Illinois developed a new saliva
-      test that could rapidly test for Covid 19. The Unversity mandated that all
-      students, faculty and staff tested regularly. For this extensive testing
-      to work, an app was created to support the process. I was part of the team
-      that brainstormed and designed the Safer Illinois app.
+      test that could rapidly test for Covid 19. The University mandated that
+      all students, faculty and staff tested regularly. For this extensive
+      testing to work, an app was created to support the process. I was part of
+      the team that brainstormed and designed the Safer Illinois app.
     </p>
 
     <p>The Safer Illinois app:</p>
@@ -68,51 +68,17 @@
     </p>
   </div>
 </TwoColumnContentBlock>
-<!-- <div class="video-container">
-    <video class="beernuts-video" autoplay loop playsinline>
-      <source src="/beernuts-website.webm" type="video/webm" />
-    </video>
-  </div> -->
-
-<div class="gif-container">
-  <img
-    class="beernuts-gif"
-    src="/beernuts-website.gif"
-    alt="computer screen scrolling through beernuts homepage"
-  />
-</div>
 <GridGallery
   images={[
     {
-      src: "/beernuts-family-eating.webp",
-      altText: "family eating at picnic table with beernuts snacks",
-      columnWidth: 1,
+      src: "/illinois-app-intro.png",
+      altText: "intros screens of the safer illinois app",
+      columnWidth: 2,
     },
     {
-      src: "/beernuts-canoe.webp",
-      altText: "two people canoeing down river with beernuts tshirts on",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-product.webp",
-      altText: "beernuts snack on bar counter with beer",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-bar.webp",
-      altText: "man sitting at bar with beernuts glass",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-boat-peanuts.webp",
-      altText: "close up of hand grabing peanut from beernuts container",
-      columnWidth: 1,
-    },
-    {
-      src: "/beernuts-camping.webp",
-      altText:
-        "three friend sitting in chairs around campsite with beernuts cooler",
-      columnWidth: 1,
+      src: "/illinois-app-screens.png",
+      altText: "various screens from inside the safer illinois app",
+      columnWidth: 2,
     },
   ]}
 />

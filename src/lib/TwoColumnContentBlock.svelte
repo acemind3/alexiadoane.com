@@ -114,7 +114,7 @@
       & .hobby-list {
         & ul {
           padding-left: 0px;
-          margin-top: 56px;
+          margin-top: 40px;
         }
 
         & li {

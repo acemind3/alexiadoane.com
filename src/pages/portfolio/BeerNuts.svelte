@@ -26,7 +26,7 @@
   >
     <HeroTitle
       websiteUrl="https://google.com"
-      titleText="Beer Nuts photoshoot and website"
+      titleText="Beer Nuts photoshoot & website"
       tags={["Website Design", "Photoshoot"]}
     />
   </HeroImage>
