@@ -13,7 +13,7 @@
 </script>
 
 <button class="ace-theme-toggle" on:click={toggleDarkMode}>
-  make it {theme == "light" ? "dark" : "light"}
+  <div class="toggle-text">make it {theme == "light" ? "dark" : "light"}</div>
 
   {#if theme === "light"}
     <svg
@@ -98,12 +98,22 @@
       path {
         fill: $text-primary;
       }
+
+      @include smallBreakpoint {
+        margin-left: 0px;
+      }
     }
 
     &:hover {
       border: 1px solid $button-fill;
       path {
         fill: $button-fill;
+      }
+    }
+
+    @include smallBreakpoint {
+      .toggle-text {
+        display: none;
       }
     }
   }
