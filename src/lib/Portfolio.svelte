@@ -37,7 +37,7 @@
       tags: ["Brand Identity | Website Design"],
     },
     {
-      src: "placeholder-img.jpg",
+      src: "safer-illinois-thumbnail.jpg",
       link: "/saferillinois",
       title: "Safer Illinois app",
       tags: ["UI/UX Design"],
