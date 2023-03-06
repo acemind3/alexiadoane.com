@@ -66,6 +66,23 @@
   </video>
 </div>
 
+<GridGallery
+  images={[
+    {
+      src: "/aptech-condition.png",
+      altText:
+        "wireframe screenshot and screenshot of working software of condition tab in the pavement tool filter section",
+      columnWidth: 2,
+    },
+    {
+      src: "/aptech-distress.png",
+      altText:
+        "wireframe screenshot and screenshot of working software of distress tab in the pavement tool filter section",
+      columnWidth: 2,
+    },
+  ]}
+/>
+
 <Footer />
 
 <style lang="scss">
