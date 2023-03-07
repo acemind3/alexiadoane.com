@@ -22,3 +22,9 @@
     game enthusiast, and adventurer.
   </p>
 </TwoColumnContentBlock>
+
+<style>
+  #about {
+    scroll-behavior: smooth;
+  }
+</style>

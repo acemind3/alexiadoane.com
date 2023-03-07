@@ -61,9 +61,9 @@
       tags: ["UI/UX Design"],
     },
     {
-      src: "placeholder-img.jpg",
-      link: "",
-      title: "Interactive Componenet",
+      src: "interactive-component-thumbnail.jpg",
+      link: "/interactivecomponent",
+      title: "Interactive farm equipment component",
       tags: ["UI/UX Design"],
     },
   ];

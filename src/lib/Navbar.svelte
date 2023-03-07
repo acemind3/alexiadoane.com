@@ -140,6 +140,11 @@
       font-family: $secondary-font;
       text-decoration: none;
       color: $text-primary;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $button-fill;
+      }
 
       @include smallBreakpoint {
         font-size: 32px;
@@ -169,8 +174,8 @@
         &:after {
           position: absolute;
           left: 0px;
-          height: 2px;
-          background: $cool-gradient;
+          height: 1px;
+          background: $button-fill;
           content: "";
           opacity: 0;
           transition: all 0.3s;
