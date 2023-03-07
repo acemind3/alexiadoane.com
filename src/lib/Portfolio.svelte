@@ -25,22 +25,29 @@
       tags: ["Website Design"],
     },
     {
-      src: "TAG_thumbnail.jpg",
-      link: "/tag",
-      title: "The Atkins Group brand identity",
-      tags: ["Brand Identity"],
-    },
-    {
       src: "pixo-thumbnail.jpg",
       link: "/pixo",
       title: "Pixo brand identity & website",
       tags: ["Brand Identity | Website Design"],
     },
     {
+      src: "interactive-component-thumbnail.jpg",
+      link: "/interactivecomponent",
+      title: "Interactive farm equipment component",
+      tags: ["UI/UX Design"],
+    },
+
+    {
       src: "safer-illinois-thumbnail.jpg",
       link: "/saferillinois",
       title: "Safer Illinois app",
       tags: ["UI/UX Design"],
+    },
+    {
+      src: "TAG_thumbnail.jpg",
+      link: "/tag",
+      title: "The Atkins Group brand identity",
+      tags: ["Brand Identity"],
     },
     {
       src: "aptech-thumbnail.jpg",
@@ -49,22 +56,10 @@
       tags: ["UI/UX Design"],
     },
     {
-      src: "placeholder-img.jpg",
-      link: "",
-      title: "Machine Learning Website",
-      tags: ["Website Design"],
-    },
-    {
-      src: "placeholder-img.jpg",
-      link: "",
-      title: "Bar Graph Tool",
-      tags: ["UI/UX Design"],
-    },
-    {
-      src: "interactive-component-thumbnail.jpg",
-      link: "/interactivecomponent",
-      title: "Interactive farm equipment component",
-      tags: ["UI/UX Design"],
+      src: "wednesday-poster-thumbnail.jpg",
+      link: "/personalposters",
+      title: "Personal poster projects",
+      tags: ["Graphic Design | Poster Design"],
     },
   ];
 </script>

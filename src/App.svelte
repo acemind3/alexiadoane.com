@@ -8,6 +8,7 @@
   import SaferIllinois from "./pages/portfolio/SaferIllinois.svelte";
   import Aptech from "./pages/portfolio/Aptech.svelte";
   import InteractiveComponent from "./pages/portfolio/InteractiveComponent.svelte";
+  import PersonalPosters from "./pages/portfolio/PersonalPosters.svelte";
 
   export let url = window.location.pathname;
 
@@ -47,6 +48,7 @@
   <Route path="/saferillinois"><SaferIllinois /></Route>
   <Route path="/aptech"><Aptech /></Route>
   <Route path="/interactivecomponent"><InteractiveComponent /></Route>
+  <Route path="/personalposters"><PersonalPosters /></Route>
 </Router>
 
 <style lang="scss">

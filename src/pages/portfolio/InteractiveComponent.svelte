@@ -6,6 +6,8 @@
   import HeroTitle from "../../lib/HeroTitle.svelte";
   import Navbar from "../../lib/Navbar.svelte";
   import TwoColumnContentBlock from "../../lib/TwoColumnContentBlock.svelte";
+  import OneColumnContentBlock from "../../lib/OneColumnContentBlock.svelte";
+
   import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
@@ -23,7 +25,7 @@
     imagePosition="overlap"
   >
     <HeroTitle
-      websiteUrl="hhttps://www.precisionplanting.com/"
+      websiteUrl="https://www.precisionplanting.com/"
       titleText="Interactive farm equipment component"
       tags={["UX Design", "UI Design"]}
     />
