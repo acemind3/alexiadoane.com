@@ -41,9 +41,9 @@
       I wanted to include some personal projects I've done. Whenenver I get
       really inspired by a TV show or movie, I get the urge to create a poster
       for it. I've recently complete works for the TV shows Wednesday, Arcane,
-      and She Ra and the Princess of Power. It's a great opportunity for me to
-      flex my creative ideas outside of the workplace. It's a labor of love, but
-      I create my posters using vector art inside of Illustrator.
+      She-Ra and the Princesses of Power, and RWBY. It's a great opportunity for
+      me to flex my creative ideas outside of the workplace. It's a labor of
+      love, but I create my posters using vector art inside of Illustrator.
     </p>
   </div>
 </OneColumnContentBlock>

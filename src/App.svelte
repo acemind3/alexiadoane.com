@@ -9,6 +9,7 @@
   import Aptech from "./pages/portfolio/Aptech.svelte";
   import InteractiveComponent from "./pages/portfolio/InteractiveComponent.svelte";
   import PersonalPosters from "./pages/portfolio/PersonalPosters.svelte";
+  import MartensCenter from "./pages/portfolio/MartensCenter.svelte";
 
   export let url = window.location.pathname;
 
@@ -49,6 +50,7 @@
   <Route path="/aptech"><Aptech /></Route>
   <Route path="/interactivecomponent"><InteractiveComponent /></Route>
   <Route path="/personalposters"><PersonalPosters /></Route>
+  <Route path="/martenscenter"><MartensCenter /></Route>
 </Router>
 
 <style lang="scss">

@@ -6,7 +6,7 @@
   import HeroTitle from "../../lib/HeroTitle.svelte";
   import Navbar from "../../lib/Navbar.svelte";
   import TwoColumnContentBlock from "../../lib/TwoColumnContentBlock.svelte";
-  import OneColumnContentBlock from "../../lib/OneColumnContentBlock.svelte";
+  import OneColumnContentBlock from "../../lib/TwoColumnContentBlock.svelte";
 
   import GridGallery from "../../lib/GridGallery.svelte";
 
@@ -25,7 +25,7 @@
     imagePosition="overlap"
   >
     <HeroTitle
-      websiteUrl="https://www.precisionplanting.com/"
+      websiteUrl="hhttps://www.precisionplanting.com/"
       titleText="Interactive farm equipment component"
       tags={["UX Design", "UI Design"]}
     />

@@ -56,6 +56,12 @@
       tags: ["UI/UX Design"],
     },
     {
+      src: "martenscenter-thumbnail.jpg",
+      link: "/martenscenter",
+      title: "Martens Center brand identity for donation campaign",
+      tags: ["Brand Identity"],
+    },
+    {
       src: "wednesday-poster-thumbnail.jpg",
       link: "/personalposters",
       title: "Personal poster projects",
@@ -198,6 +204,8 @@
       transform: translate(4px, 4px);
       text-decoration: none;
       padding-bottom: 16px;
+      top: -1px;
+      left: -1px;
 
       img {
         width: 320px;

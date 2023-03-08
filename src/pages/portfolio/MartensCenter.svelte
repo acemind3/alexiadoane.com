@@ -9,23 +9,22 @@
   import GridGallery from "../../lib/GridGallery.svelte";
 
   const skills = [
-    "facilitating and leading worksessions with client",
-    "wireframming",
-    "design user interface",
-    "collaborating with engineers to design and implement",
+    "brand identity",
+    "collaborate with copy writers and brand strategists",
+    "coordinate with vendors",
   ];
 </script>
 
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/aptech-feature.jpg"
+    imageUrl="/martens-center-feature.jpg"
     spacing="between"
     imagePosition="overlap"
   >
     <HeroTitle
-      titleText="Advanced filtering for pavement tool"
-      tags={["UX Design", "UI Design"]}
+      titleText="Martens Center brand identity for donation campaign"
+      tags={["Brand identity"]}
     />
   </HeroImage>
 </div>
@@ -38,18 +37,18 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      Our client wanted to create an advanced filtering feature inside their
-      current airport pavement tool to offer their clients greater control when
-      searching for certain pavement distresses. This tool would help airports
-      find pavement patches that needed attention quicker and to plan their
-      budgets accordingly.
+      The Martens center is a multi-purpose Champaign Park District facility
+      that was built in a lower income neighborhood. The goal was the bring a
+      state of the art facility to the area and offer lower-cost memberships.
+      The center is also home for the Don Moyer Boys and Girls Club of champaign
+      and features a gym, indoor track, kitchen, fitness center, multi-purpose
+      rooms, and media center.
     </p>
     <p>
-      The feature we designed allowed a user to filter pavement by condition,
-      surface type, distress type, age, and use. Once filters were applied, a
-      user could see specific data regarding their selected filtered types in a
-      table format, as well as a map view of where a pavement that met their
-      specific filtering conditions could be located at the airport.
+      I developed the core look and materials for the donation campaign when the
+      building was first looking for donors. Surface 51 developed the core
+      messaging, and I created the look and feel as well as the overview
+      booklet, and folder of the new building space.
     </p>
 
     <p class="designed-at">
@@ -59,25 +58,21 @@
   </div>
 </TwoColumnContentBlock>
 
-<div class="gif-container">
-  <video playsinline autoplay muted loop class="aptech-gif">
-    <source src="/aptech-filters-vp9-chrome.webm" type="video/webm" />
-    <source src="/aptech-filters-hevc-safari.mp4" type="video/mp4" />
-  </video>
-</div>
-
 <GridGallery
   images={[
     {
-      src: "/aptech-condition.png",
-      altText:
-        "wireframe screenshot and screenshot of working software of condition tab in the pavement tool filter section",
+      src: "/martens-center-website.jpg",
+      altText: "image of website mockup",
       columnWidth: 2,
     },
     {
-      src: "/aptech-distress.png",
-      altText:
-        "wireframe screenshot and screenshot of working software of distress tab in the pavement tool filter section",
+      src: "/martens-center-booklet.jpg",
+      altText: "image of booklet",
+      columnWidth: 2,
+    },
+    {
+      src: "/martens-center-folder.jpg",
+      altText: "image of folder",
       columnWidth: 2,
     },
   ]}

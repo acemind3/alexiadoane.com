@@ -12,10 +12,12 @@
       </div>
       <div class="social-media-wrapper">
         <a
+          class="social-media-links"
           href="https://www.linkedin.com/in/alex-doane-67a63171/"
           target="blank"
         >
           <svg
+            class="social-media-links__icons"
             width="80"
             height="80"
             viewBox="0 0 80 80"
@@ -43,8 +45,13 @@
             </defs>
           </svg>
         </a>
-        <a href="/alex-web-resume.pdf" target="blank">
+        <a
+          class="social-media-links"
+          href="/alex-web-resume.pdf"
+          target="blank"
+        >
           <svg
+            class="social-media-links__icons"
             width="80"
             height="80"
             viewBox="0 0 80 80"
@@ -131,18 +138,12 @@
       justify-content: flex-end;
       gap: 16px;
 
-      a {
+      .social-media-links {
         transition: all 0.5s;
         opacity: 1;
 
         &:hover {
           opacity: 0.5;
-        }
-      }
-
-      &__icon {
-        path {
-          fill: $cool-gradient;
         }
       }
     }

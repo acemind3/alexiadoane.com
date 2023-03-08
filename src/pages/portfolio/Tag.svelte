@@ -40,14 +40,13 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      At Surface 51, I designed a new identity for The Atkins Group. This
-      consisted of creating a new logo along with a new look and feel. Within
-      the TAG brand, there are 5 areas of expertise that needed to be taken
-      under consideration. Each needed to have its own identifier, so in
-      addition to choosing the core TAG colors of black and red, 4 additional
-      colors were chosen to represent these areas. Only 4 colors were chosen
-      because TAG decided to use their core red color for one of their expertise
-      areas.
+      The Atkins Group is a land developent group based out of Champaign,
+      Illinois. I created their new logo and new look and feel to better express
+      to the community what they do. Within the TAG brand, there were other
+      areas of expertise that needed to be taken under consideration. Each
+      needed to have its own identifier, so in addition to choosing the core TAG
+      colors of black and red, additional colors were chosen to represent these
+      other areas.
     </p>
 
     <p class="designed-at">
