@@ -54,9 +54,6 @@
         <li>
           <SectionTitle textFormat="medium">hobby enthusiast</SectionTitle>
         </li>
-        <li>
-          <SectionTitle textFormat="medium">Cat enjoyer</SectionTitle>
-        </li>
       </ul>
     </div>
   </div>
