@@ -15,6 +15,7 @@
           class="social-media-links"
           href="https://www.linkedin.com/in/alex-doane-67a63171/"
           target="blank"
+          aria-label="open linkedin profile"
         >
           <svg
             class="social-media-links__icons"
@@ -42,6 +43,7 @@
           class="social-media-links"
           href="/alex-web-resume.pdf"
           target="blank"
+          aria-label="open resume pdf"
         >
           <svg
             class="social-media-links__icons"

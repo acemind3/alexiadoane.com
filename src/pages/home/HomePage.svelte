@@ -82,8 +82,6 @@
     }
   }
 
-  .nav-jump-link {
-  }
   .homepage-hero-container {
     margin: 0 auto;
     max-width: 115rem;
