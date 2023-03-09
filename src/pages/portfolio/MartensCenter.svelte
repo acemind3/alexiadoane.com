@@ -38,22 +38,22 @@
   <div class="paragraph-spacer" slot="left">
     <p>
       The Martens center is a multi-purpose Champaign Park District facility
-      that was built in a lower income neighborhood. The goal was the bring a
-      state of the art facility to the area and offer lower-cost memberships.
-      The center is also home for the Don Moyer Boys and Girls Club of champaign
-      and features a gym, indoor track, kitchen, fitness center, multi-purpose
-      rooms, and media center.
+      that was built in a lower income neighborhood. The goal was to bring a
+      state of the art facility to offer lower-cost memberships. The center is
+      also home for the Don Moyer Boys and Girls Club of Champaign and features
+      a gym, indoor track, kitchen, fitness center, multi-purpose rooms, and
+      media center.
     </p>
     <p>
       I developed the core look and materials for the donation campaign when the
       building was first looking for donors. Surface 51 developed the core
-      messaging, and I created the look and feel as well as the overview
-      booklet, and folder of the new building space.
+      messaging, and I created the look and feel, overview booklet, and folder
+      of the new building space.
     </p>
 
     <p class="designed-at">
       Work Designed at
-      <AceLink href="https://pixotech.com/">Pixo</AceLink>
+      <AceLink href="https://surface51.com/">Surface 51</AceLink>
     </p>
   </div>
 </TwoColumnContentBlock>

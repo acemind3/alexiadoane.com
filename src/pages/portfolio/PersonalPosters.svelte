@@ -40,7 +40,7 @@
     <p>
       I wanted to include some personal projects I've done. Whenenver I get
       really inspired by a TV show or movie, I get the urge to create a poster
-      for it. I've recently complete works for the TV shows Wednesday, Arcane,
+      for it. I've recently completed works for the TV shows Wednesday, Arcane,
       She-Ra and the Princesses of Power, and RWBY. It's a great opportunity for
       me to flex my creative ideas outside of the workplace. It's a labor of
       love, but I create my posters using vector art inside of Illustrator.

@@ -10,7 +10,7 @@
 
   const skills = [
     "logo design",
-    "brand identity design",
+    "brand identity",
     "environmental and vehicle graphic design",
     "signage",
     "vendor coordination",
@@ -40,10 +40,10 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      The Atkins Group is a land developent group based out of Champaign,
-      Illinois. I created their new logo and new look and feel to better express
-      to the community what they do. Within the TAG brand, there were other
-      areas of expertise that needed to be taken under consideration. Each
+      The Atkins Group is a land development group based out of Champaign,
+      Illinois. I created their new logo and new brand identity to better
+      express to the community what they do. Within the TAG brand, there were
+      other areas of expertise that needed to be taken into consideration. Each
       needed to have its own identifier, so in addition to choosing the core TAG
       colors of black and red, additional colors were chosen to represent these
       other areas.
