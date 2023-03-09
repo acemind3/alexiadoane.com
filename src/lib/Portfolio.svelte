@@ -37,12 +37,12 @@
       tags: ["UI/UX Design"],
     },
 
-    {
-      src: "safer-illinois-thumbnail.jpg",
-      link: "/saferillinois",
-      title: "Safer Illinois app",
-      tags: ["UI/UX Design"],
-    },
+    // {
+    //   src: "safer-illinois-thumbnail.jpg",
+    //   link: "/saferillinois",
+    //   title: "Safer Illinois app",
+    //   tags: ["UI/UX Design"],
+    // },
     {
       src: "TAG_thumbnail.jpg",
       link: "/tag",
