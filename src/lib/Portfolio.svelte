@@ -8,6 +8,7 @@
     isExternalLink?: boolean;
     title?: string;
     tags?: string[];
+    alt?: string;
   }
 
   const imageLocations: ImageLinkPair[] = [
@@ -16,6 +17,7 @@
       link: "/beernuts",
       title: "Beer Nuts photoshoot & website",
       tags: ["Website Design", "Photoshoot"],
+      alt: "image of beer sliding across bar with beernuts logo on top",
     },
     {
       src: "iecam-thumbnail.webp",
@@ -23,18 +25,21 @@
       isExternalLink: true,
       title: "IECAM website",
       tags: ["Website Design"],
+      alt: "image iecam website on computer screen",
     },
     {
       src: "pixo-thumbnail.webp",
       link: "/pixo",
       title: "Pixo brand identity & website",
       tags: ["Brand Identity | Website Design"],
+      alt: "image of pixo logo",
     },
     {
       src: "interactive-component-thumbnail.webp",
       link: "/interactivecomponent",
       title: "Interactive farm equipment component",
       tags: ["UI/UX Design"],
+      alt: "image of interactive component on someone's computer",
     },
 
     // {
@@ -42,30 +47,36 @@
     //   link: "/saferillinois",
     //   title: "Safer Illinois app",
     //   tags: ["UI/UX Design"],
+    // alt: "image of app on someone's phone in their hand",
+
     // },
     {
       src: "TAG_thumbnail.webp",
       link: "/tag",
       title: "The Atkins Group brand identity",
       tags: ["Brand Identity"],
+      alt: "image of TAG branding",
     },
     {
       src: "aptech-thumbnail.webp",
       link: "/aptech",
       title: "Advanced filtering for pavement tool",
       tags: ["UI/UX Design"],
+      alt: "image of air traffic controller using software with filter feature",
     },
     {
       src: "martenscenter-thumbnail.webp",
       link: "/martenscenter",
       title: "Martens Center brand identity for donation campaign",
       tags: ["Brand Identity"],
+      alt: "image of martens center branding",
     },
     {
       src: "wednesday-poster-thumbnail.webp",
       link: "/personalposters",
       title: "Personal poster projects",
       tags: ["Graphic Design | Poster Design"],
+      alt: "image of closeup of wednesday poster",
     },
   ];
 </script>
