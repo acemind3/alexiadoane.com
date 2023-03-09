@@ -18,7 +18,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/safer-illinois-feature.jpg"
+    imageUrl="/safer-illinois-feature.webp"
     spacing="between"
     imagePosition="overlap"
   >
@@ -71,12 +71,12 @@
 <GridGallery
   images={[
     {
-      src: "/illinois-app-intro.png",
-      altText: "intros screens of the safer illinois app",
+      src: "/illinois-app-intro.webp",
+      altText: "intro screens of the safer illinois app",
       columnWidth: 2,
     },
     {
-      src: "/illinois-app-screens.png",
+      src: "/illinois-app-screens.webp",
       altText: "various screens from inside the safer illinois app",
       columnWidth: 2,
     },

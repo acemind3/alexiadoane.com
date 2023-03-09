@@ -17,7 +17,7 @@
   <div class="homepage-hero-container">
     <HeroImage
       spacing="between"
-      imageUrl="/ace-pic.jpg"
+      imageUrl="/ace-pic.webp"
       responsiveBackgroundIsWhite={false}
       imagePosition="top"
       hasTransparentImage={true}

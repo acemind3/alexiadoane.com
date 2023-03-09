@@ -20,7 +20,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/beernuts-feature.jpg"
+    imageUrl="/beernuts-feature.webp"
     spacing="between"
     imagePosition="overlap"
   >

@@ -20,7 +20,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/tag-feature.jpg"
+    imageUrl="/tag-feature.webp"
     spacing="between"
     imagePosition="overlap"
   >
@@ -59,31 +59,32 @@
 <GridGallery
   images={[
     {
-      src: "/tag_collateral.jpg",
+      src: "/tag_collateral.webp",
       altText:
         "image of letterhead, envelope and businss cards with TAG branding",
       columnWidth: 1,
     },
     {
-      src: "/tag-farm-sign.jpg",
+      src: "/tag-farm-sign.webp",
+      altText: "image of farm sign depicting the TAG branding",
+      columnWidth: 1,
+    },
+    {
+      src: "/tag-front-door.webp",
       altText:
-        "three friend sitting in chairs around campsite with beernuts cooler",
+        "image of the TAG front door with environemental graphics on it showing the TAG branding",
       columnWidth: 1,
     },
     {
-      src: "/tag-front-door.jpg",
-      altText: "two people canoeing down river with beernuts tshirts on",
-      columnWidth: 1,
-    },
-    {
-      src: "/tag-truck.jpg",
-      altText: "beernuts snack on bar counter with beer",
+      src: "/tag-truck.webp",
+      altText:
+        "image of a TAG truck with graphics on it showing the TAG branding",
       columnWidth: 1,
     },
 
     {
-      src: "/tag-billboards.jpg",
-      altText: "close up of hand grabing peanut from beernuts container",
+      src: "/tag-billboards.webp",
+      altText: "mockups of TAG branded billboards",
       columnWidth: 2,
     },
   ]}

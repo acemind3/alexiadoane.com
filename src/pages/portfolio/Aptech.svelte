@@ -19,7 +19,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/aptech-feature.jpg"
+    imageUrl="/aptech-feature.webp"
     spacing="between"
     imagePosition="overlap"
   >
@@ -69,13 +69,13 @@
 <GridGallery
   images={[
     {
-      src: "/aptech-condition.png",
+      src: "/aptech-condition.webp",
       altText:
         "wireframe screenshot and screenshot of working software of condition tab in the pavement tool filter section",
       columnWidth: 2,
     },
     {
-      src: "/aptech-distress.png",
+      src: "/aptech-distress.webp",
       altText:
         "wireframe screenshot and screenshot of working software of distress tab in the pavement tool filter section",
       columnWidth: 2,

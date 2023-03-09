@@ -12,57 +12,57 @@
 
   const imageLocations: ImageLinkPair[] = [
     {
-      src: "beernuts_thumbnail.jpg",
+      src: "beernuts_thumbnail.webp",
       link: "/beernuts",
       title: "Beer Nuts photoshoot & website",
       tags: ["Website Design", "Photoshoot"],
     },
     {
-      src: "iecam-thumbnail.png",
+      src: "iecam-thumbnail.webp",
       link: "https://pixotech.com/work/illinois-early-childhood-asset-map-website/",
       isExternalLink: true,
       title: "IECAM website",
       tags: ["Website Design"],
     },
     {
-      src: "pixo-thumbnail.jpg",
+      src: "pixo-thumbnail.webp",
       link: "/pixo",
       title: "Pixo brand identity & website",
       tags: ["Brand Identity | Website Design"],
     },
     {
-      src: "interactive-component-thumbnail.jpg",
+      src: "interactive-component-thumbnail.webp",
       link: "/interactivecomponent",
       title: "Interactive farm equipment component",
       tags: ["UI/UX Design"],
     },
 
     // {
-    //   src: "safer-illinois-thumbnail.jpg",
+    //   src: "safer-illinois-thumbnail.webp",
     //   link: "/saferillinois",
     //   title: "Safer Illinois app",
     //   tags: ["UI/UX Design"],
     // },
     {
-      src: "TAG_thumbnail.jpg",
+      src: "TAG_thumbnail.webp",
       link: "/tag",
       title: "The Atkins Group brand identity",
       tags: ["Brand Identity"],
     },
     {
-      src: "aptech-thumbnail.jpg",
+      src: "aptech-thumbnail.webp",
       link: "/aptech",
       title: "Advanced filtering for pavement tool",
       tags: ["UI/UX Design"],
     },
     {
-      src: "martenscenter-thumbnail.jpg",
+      src: "martenscenter-thumbnail.webp",
       link: "/martenscenter",
       title: "Martens Center brand identity for donation campaign",
       tags: ["Brand Identity"],
     },
     {
-      src: "wednesday-poster-thumbnail.jpg",
+      src: "wednesday-poster-thumbnail.webp",
       link: "/personalposters",
       title: "Personal poster projects",
       tags: ["Graphic Design | Poster Design"],

@@ -18,7 +18,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/martens-center-feature.jpg"
+    imageUrl="/martens-center-feature.webp"
     spacing="between"
     imagePosition="overlap"
   >
@@ -61,17 +61,17 @@
 <GridGallery
   images={[
     {
-      src: "/martens-center-website.jpg",
+      src: "/martens-center-website.webp",
       altText: "image of website mockup",
       columnWidth: 2,
     },
     {
-      src: "/martens-center-booklet.jpg",
+      src: "/martens-center-booklet.webp",
       altText: "image of booklet",
       columnWidth: 2,
     },
     {
-      src: "/martens-center-folder.jpg",
+      src: "/martens-center-folder.webp",
       altText: "image of folder",
       columnWidth: 2,
     },

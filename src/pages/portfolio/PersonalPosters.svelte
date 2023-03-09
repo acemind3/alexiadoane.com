@@ -21,7 +21,7 @@
 <Navbar />
 <div class="hero-container">
   <HeroImage
-    imageUrl="/wednesday-poster-feature.jpg"
+    imageUrl="/wednesday-poster-feature.webp"
     spacing="between"
     imagePosition="overlap"
   >
@@ -58,7 +58,7 @@
       <div class="poster-gallery__image">
         <img
           class="wednesday-img"
-          src="posters_wednesday_web.png"
+          src="posters_wednesday_web.webp"
           alt="netflix wednesday tv show poster"
         />
       </div>
@@ -71,7 +71,7 @@
       <div class="poster-gallery__image">
         <img
           class="arcane-img"
-          src="posters_jinx_web.png"
+          src="posters_jinx_web.webp"
           alt="netflix arcane tv show poster"
         />
       </div>
@@ -84,12 +84,12 @@
       <div class="poster-gallery__image">
         <img
           class="shera-img"
-          src="posters-adora.png"
+          src="posters-adora.webp"
           alt="netflix she-ra and the princesses of power tv show poster for Adora"
         />
         <img
           class="catra-img"
-          src="posters-catra.png"
+          src="posters-catra.webp"
           alt="netflix arcane tv show poster for Catra"
         />
       </div>
@@ -102,7 +102,7 @@
       <div class="poster-gallery__image">
         <img
           class="rwby-img"
-          src="posters-rwby.jpg"
+          src="posters-rwby.webp"
           alt="RWBY tv show poster"
         />
       </div>

@@ -72,13 +72,13 @@
 <GridGallery
   images={[
     {
-      src: "/pixo-brand-guide.jpg",
-      altText: "family eating at picnic table with beernuts snacks",
+      src: "/pixo-brand-guide.webp",
+      altText: "screengrabs of various pages from the pixo brand guide",
       columnWidth: 2,
     },
     {
-      src: "/pixo-brochures.jpg",
-      altText: "two people canoeing down river with beernuts tshirts on",
+      src: "/pixo-brochures.webp",
+      altText: "images of a brochure depicting various pixo services",
       columnWidth: 2,
     },
   ]}
