@@ -25,7 +25,7 @@
     imagePosition="overlap"
   >
     <HeroTitle
-      websiteUrl="hhttps://www.precisionplanting.com/"
+      websiteUrl="https://www.precisionplanting.com/"
       titleText="Interactive farm equipment component"
       tags={["UX Design", "UI Design"]}
     />
