@@ -38,12 +38,13 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      I wanted to include some personal projects I've done. Whenenver I get
-      really inspired by a TV show or movie, I get the urge to create a poster
-      for it. I've recently completed works for the TV shows Wednesday, Arcane,
-      She-Ra and the Princesses of Power, and RWBY. It's a great opportunity for
-      me to flex my creative ideas outside of the workplace. It's a labor of
-      love, but I create my posters using vector art inside of Illustrator.
+      Here are some personal projects I've done. Whenever I’m really inspired by
+      a TV show or movie, I get the urge to create a poster for it. I've
+      recently completed works for <em>Wednesday</em>, <em>Arcane</em>,
+      <em>She-Ra and the Princesses of Power</em>, and <em>RWBY</em>. It's a
+      great opportunity for me to flex my creative ideas outside of the
+      workplace. These are a labor of love created as vector art in Adobe
+      Illustrator.
     </p>
   </div>
 </OneColumnContentBlock>
@@ -126,6 +127,10 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    &.emphasized {
+      font-style: italic;
+    }
   }
 
   .designed-at {

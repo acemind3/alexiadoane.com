@@ -38,18 +38,18 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      Our client wanted to create an advanced filtering feature inside their
-      current airport pavement tool to offer their clients greater control when
-      searching for certain pavement distresses. This tool would help airports
-      find pavement patches that needed attention quicker and to plan their
-      budgets accordingly.
+      I worked with a pavement company to enhance their application for
+      monitoring airport runways. The existing tool needed a way for users to
+      find pavement distresses faster and plan their repair budgets accordingly.
+      I worked on a development team to create an advanced filtering feature to
+      offer users greater control when searching for certain distresses.
     </p>
     <p>
-      The feature we designed allowed a user to filter pavement by condition,
-      surface type, distress type, age, and use. Once filters were applied, a
-      user could see specific data regarding their selected filtered types in a
-      table format, as well as a map view of where a pavement that met their
-      specific filtering conditions could be located at the airport.
+      The feature we designed allows a user to filter pavement by condition,
+      surface type, distress type, age, and use. Once filters are applied, a
+      user can see data for their selected types in a table view, as well as a
+      map view that shows the location of the distressed pavement meeting their
+      specific filtering conditions at the airport.
     </p>
 
     <p class="designed-at">

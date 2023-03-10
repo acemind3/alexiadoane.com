@@ -39,9 +39,9 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      Beer Nuts is a national brand snack company based out of Bloomington, IL.
-      I planned and art directed a three day photo/videoshoot for use in
-      marketing materials and a new website.
+      Beer Nuts is a national snack company based in Bloomington, IL. I planned
+      and art-directed a three-day photo and video shoot for marketing materials
+      and a new website.
     </p>
 
     <p>This process included:</p>
@@ -52,14 +52,14 @@
       <li>
         organizing and communicating with the videographer and photographer
       </li>
-      <li>art directing</li>
+      <li>art directing on location</li>
     </ul>
 
     <p>
-      I later designed and collaborated with develoeprs to create and implement
-      a new website using images and video captured during the photo/videoshoot.
-      The website phase consisted of developing a wireframe, design mockups and
-      collaboration with developers to implement.
+      I then designed a new website using images and video captured during the
+      shoot. The website phase consisted of developing a wireframe, designing
+      mockups, and collaborating with developers to implement a website that
+      shows off the product and speaks to their target customers.
     </p>
 
     <p class="designed-at">

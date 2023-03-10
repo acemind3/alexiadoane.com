@@ -42,10 +42,11 @@
 >
   <div class="paragraph-spacer" slot="left">
     <p>
-      I played an integral role in rebranding Pixo and designing new marketing
-      materials. My team facilitated and led work sessions to develop the new
-      brand identity and messaging. We developed a brand identity guide and
-      implemented a new website as part of this internal project.
+      While at Pixo, I played an integral role in rebranding and designing new
+      marketing materials for the company. My team facilitated work sessions
+      with stakeholders to develop a new visual identity and messaging, and we
+      developed a brand identity guide and implemented a new website as part of
+      this internal project.
     </p>
 
     <p class="designed-at">

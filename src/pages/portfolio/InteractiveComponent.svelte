@@ -41,11 +41,11 @@
   <div class="paragraph-spacer" slot="left">
     <p>
       Precision Planting is an international company that develops products that
-      improve planting and harvest operations using smart technology. They asked
-      us to create a homepage component that could feature a specific product,
-      and highlight certain pieces. We created a component that had visual
-      indications that could be interacted with. When a user interacted with a
-      specific point, more information reveals itself.
+      improve planting and harvest operations using smart technology. For the
+      company’s website homepage, I designed an interactive component that would
+      allow the user to visualize and explore product features. I collaborated
+      with a web development team to implement intuitive and accessible
+      interactions that perform well on both desktop and mobile.
     </p>
 
     <p class="designed-at">
