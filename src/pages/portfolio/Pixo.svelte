@@ -66,8 +66,9 @@
 
 <div class="gif-container">
   <video playsinline autoplay muted loop class="pixo-gif">
-    <source src="/pixo-website-scroll-hevc-safari.mp4" type="video/mp4" />
     <source src="/pixo-website-scroll-vp9-chrome.webm" type="video/webm" />
+    <source src="/pixo-website-scroll-hevc-safari.mp4" type="video/mp4" />
+
   </video>
 </div>
 <GridGallery

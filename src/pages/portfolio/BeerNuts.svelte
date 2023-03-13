@@ -76,8 +76,8 @@
 
 <div class="gif-container">
   <video playsinline autoplay muted loop class="beernuts-gif">
-    <source src="/beernuts-website-hevc-safari.mp4" type="video/mp4" />
     <source src="/beernuts-website-vp9-chrome.webm" type="video/webm" />
+    <source src="/beernuts-website-hevc-safari.mp4" type="video/mp4" />
   </video>
 </div>
 <GridGallery
