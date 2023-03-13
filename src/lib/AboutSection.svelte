@@ -7,6 +7,7 @@
     "Making lofi beats",
     "Watercolor sketches",
     "Bird watching",
+    "Skateboarding",
   ];
 </script>
 

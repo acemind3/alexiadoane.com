@@ -57,7 +57,7 @@
   @import "./style/global.scss";
   @import "./style/theme.scss";
 
-  .html {
+  html {
     scroll-behavior: smooth;
 
     @media screen and (prefers-reduced-motion: reduce) {

@@ -8,10 +8,10 @@
 --link-color: #8553AC;
 --text-secondary: #AFADAD;
 --tag-color: #185757;
---gradient: linear-gradient(180deg, #6E87DF 0%, #E48BFB 100%);
-
 --theme-toggle-box-shadow: inset -2px -1px 4px rgba(251, 251, 251, 0.1), inset 2px 2px 5px #1E1E1E;
+--theme-divider-opacity: 1;
 }
+
 @mixin LightTheme {
 --background-primary: #F4F4F4;
 --background-secondary: #FBFBFB;
@@ -25,4 +25,6 @@
 --gradient: linear-gradient(180deg, #3A5DDC 0%, #997ADD 100%);
 
 --theme-toggle-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+--theme-divider-opacity: 0.15;
+
 }

@@ -5,8 +5,10 @@
   const left = 0;
   const bottom = 0;
   const right = 0;
-  let intersecting = false;
+  let playWaveAnimation = false;
   let container;
+  let video: HTMLVideoElement;
+  let waveInterval: NodeJS.Timer;
 
   onMount(() => {
     if (typeof IntersectionObserver !== "undefined") {
@@ -14,7 +16,21 @@
 
       const observer = new IntersectionObserver(
         (entries) => {
-          intersecting = entries[0].isIntersecting;
+          const isIntersecting = entries[0].isIntersecting;
+
+          if (isIntersecting) {
+            playWaveAnimation = true;
+
+            onBirbAnimate();
+
+            waveInterval = setInterval(() => {
+              onWaveAnimate();
+            }, 6000);
+          } else {
+            playWaveAnimation = false;
+            if (waveInterval) clearInterval(waveInterval);
+            onBirbStopAnimating();
+          }
         },
         {
           rootMargin,
@@ -25,6 +41,26 @@
       return () => observer.unobserve(container);
     }
   });
+  function onWaveAnimate() {
+    playWaveAnimation = true;
+
+    setTimeout(() => {
+      playWaveAnimation = false;
+    }, 5000);
+  }
+  function onBirbAnimate() {
+    if (video) {
+      video.currentTime = 0;
+      video.play();
+    }
+  }
+
+  function onBirbStopAnimating() {
+    if (video) {
+      video.pause();
+      video.currentTime = 0;
+    }
+  }
 
   const blocks: number[] = new Array(45).fill(1);
 </script>
@@ -35,13 +71,24 @@
       <div
         class="ace-divider__sound-wave-block ace-divider__sound-wave-block-{index +
           1}"
-        class:ace-divider__sound-wave-block-intersecting={intersecting}
+        class:ace-divider__sound-wave-block-intersecting={playWaveAnimation}
       />
     {/each}
   </div>
   <div class="ace-divider__line">
     <div class="ace-divider__line-bird-wrapper">
-      <div class="ace-divider__line-bird ace-divider__line-bird-1">
+      <video
+        preload="none"
+        bind:this={video}
+        playsinline
+        muted
+        class="skatebird-vid"
+        loop
+      >
+        <source src="/skatebirb-vp9-chrome.webm" type="video/webm" />
+        <source src="/skatebirb-hevc-safari.mp4" type="video/mp4" />
+      </video>
+      <!-- <div class="ace-divider__line-bird ace-divider__line-bird-1">
         <svg
           width="40"
           height="86"
@@ -80,7 +127,7 @@
             fill="#3C3C3C"
           />
         </svg>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -125,7 +172,7 @@
         background-color: $background-accent;
 
         &-intersecting {
-          animation: 2s scaleSoundWaves 4s ease-in-out forwards;
+          animation: 2s scaleSoundWaves ease-in-out forwards;
         }
 
         @for $i from 1 through $numberOfBlocks {
@@ -340,31 +387,49 @@
         &-wrapper {
           position: relative;
           right: -3vw;
-        }
 
-        &-1 {
-          right: 122px;
-          top: -52px;
-          @include smallBreakpoint {
-            right: 52px;
-          }
+          .skatebird-vid {
+            position: absolute;
+            top: -170px;
+            right: 65px;
+            max-width: 240px;
+            height: auto;
+            transform: scaleX(-1);
+            opacity: $theme-divider-opacity;
 
-          @media screen and (max-width: 478px) {
-            display: none;
-          }
-        }
+            @include smallBreakpoint {
+              right: -30px;
+            }
 
-        &-2 {
-          right: 80px;
-          top: -84px;
-          @include smallBreakpoint {
-            right: 4px;
-          }
-
-          @media screen and (max-width: 445px) {
-            display: none;
+            @media screen and (max-width: 478px) {
+              display: none;
+            }
           }
         }
+
+        // &-1 {
+        //   right: 122px;
+        //   top: -52px;
+        //   @include smallBreakpoint {
+        //     right: 52px;
+        //   }
+
+        //   @media screen and (max-width: 478px) {
+        //     display: none;
+        //   }
+        // }
+
+        // &-2 {
+        //   right: 80px;
+        //   top: -84px;
+        //   @include smallBreakpoint {
+        //     right: 4px;
+        //   }
+
+        //   @media screen and (max-width: 445px) {
+        //     display: none;
+        //   }
+        // }
       }
     }
   }
