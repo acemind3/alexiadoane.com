@@ -22,7 +22,7 @@
     {
       src: "iecam-thumbnail.webp",
       link: "/iecam",
-      isExternalLink: true,
+      // isExternalLink: true,
       title: "IECAM website",
       tags: ["Website Design"],
       altText: "image iecam website on computer screen",
