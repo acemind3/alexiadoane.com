@@ -92,7 +92,7 @@
     &.sticky,
     &.slideOut {
       position: sticky;
-      z-index: 5000;
+      z-index: 50;
       box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
 
       @include smallBreakpoint {

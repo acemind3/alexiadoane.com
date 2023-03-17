@@ -1,7 +1,6 @@
 <script>
   import AceLink from "../../lib/AceLink.svelte";
   import Footer from "../../lib/Footer.svelte";
-  import Gallery from "../../lib/Gallery.svelte";
   import HeroImage from "../../lib/HeroImage.svelte";
   import HeroTitle from "../../lib/HeroTitle.svelte";
   import Navbar from "../../lib/Navbar.svelte";

@@ -1,7 +1,6 @@
 <script>
   import AceLink from "../../lib/AceLink.svelte";
   import Footer from "../../lib/Footer.svelte";
-  import Gallery from "../../lib/Gallery.svelte";
   import HeroImage from "../../lib/HeroImage.svelte";
   import HeroTitle from "../../lib/HeroTitle.svelte";
   import Navbar from "../../lib/Navbar.svelte";
@@ -68,7 +67,6 @@
   <video playsinline autoplay muted loop class="pixo-gif">
     <source src="/pixo-website-scroll-vp9-chrome.webm" type="video/webm" />
     <source src="/pixo-website-scroll-hevc-safari.mp4" type="video/mp4" />
-
   </video>
 </div>
 <GridGallery

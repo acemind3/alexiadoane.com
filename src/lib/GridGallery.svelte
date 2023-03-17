@@ -1,4 +1,6 @@
 <script lang="ts">
+  import AceImage from "./AceImage.svelte";
+
   type GalleryImage = {
     src: string;
     altText: string;
@@ -15,12 +17,14 @@
       <div
         class="gallery__img-wrapper gallery__img-wrapper--width-{image.columnWidth}"
       >
-        <img
-          class="gallery__img "
-          src={image.src}
-          alt={image.altText}
-          aria-label={image.altText}
-        />
+        <AceImage>
+          <img
+            class="gallery__img "
+            src={image.src}
+            alt={image.altText}
+            aria-label={image.altText}
+          />
+        </AceImage>
       </div>
     {/each}
   </div>
