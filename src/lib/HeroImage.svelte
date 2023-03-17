@@ -4,6 +4,7 @@
   export let responsiveBackgroundIsWhite: boolean = true;
   export let hasTransparentImage: boolean = false;
   export let imagePosition: "top" | "overlap" = "overlap";
+  export let imageIsClipped: "clip" | "noClip" = "clip";
 </script>
 
 <div
@@ -11,7 +12,7 @@
   class:hero__responsive-color={responsiveBackgroundIsWhite}
 >
   <img
-    class="hero-image hero-image__imagePosition--{imagePosition}"
+    class="hero-image hero-image__imagePosition--{imagePosition} hero-image__imageIsClipped--{imageIsClipped}"
     class:hero-image__transparent-image={hasTransparentImage}
     src={imageUrl}
     alt="hero"
@@ -25,6 +26,10 @@
   .hero-image {
     clip-path: polygon(100% 0, 100% 41%, 54% 100%, 0 100%, 0 0);
     position: relative;
+
+    &__imageIsClipped--noClip {
+      clip-path: none;
+    }
 
     &__imagePosition--top {
       top: 0px;

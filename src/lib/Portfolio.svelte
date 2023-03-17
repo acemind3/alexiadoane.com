@@ -21,7 +21,7 @@
     },
     {
       src: "iecam-thumbnail.webp",
-      link: "https://pixotech.com/work/illinois-early-childhood-asset-map-website/",
+      link: "/iecam",
       isExternalLink: true,
       title: "IECAM website",
       tags: ["Website Design"],

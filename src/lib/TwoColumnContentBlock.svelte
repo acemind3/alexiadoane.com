@@ -5,7 +5,7 @@
   export let rightSectionTitle: string;
   export let rightSectionItems: string[];
   export let leftSectionFontSize: "large" | "small" = "large";
-  export let marginTopSize: "medium" | "large" = "large";
+  export let marginTopSize: "small" | "medium" | "large" = "large";
 </script>
 
 <div class="about-container">
@@ -57,6 +57,9 @@
     }
     &--margin-top-medium {
       margin-top: 120px;
+    }
+    &--margin-top-small {
+      margin-top: 0px;
     }
 
     @include mediumBreakpoint {

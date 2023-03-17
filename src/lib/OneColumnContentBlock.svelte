@@ -3,7 +3,8 @@
 
   export let leftSectionTitle: string;
   export let leftSectionFontSize: "large" | "small" = "large";
-  export let marginTopSize: "medium" | "large" = "large";
+  export let marginTopSize: "small" | "medium" | "large" = "large";
+  export let contentUsedAsSummaryOrBody: "summary" | "body" = "summary";
 </script>
 
 <div class="about-container">
@@ -13,7 +14,9 @@
         <SectionTitle>{leftSectionTitle}</SectionTitle>
       </div>
 
-      <div class="description description--{leftSectionFontSize}">
+      <div
+        class="description description--{leftSectionFontSize} description--content-type-{contentUsedAsSummaryOrBody}"
+      >
         <slot name="left" />
       </div>
     </div>
@@ -46,9 +49,19 @@
       margin-top: 120px;
     }
 
+    &--margin-top-small {
+      margin-top: 0px;
+      padding: 0px 96px 0px 96px;
+    }
+
     @include mediumBreakpoint {
       grid-template-columns: 1fr;
       margin-top: 120px;
+
+      &--margin-top-small {
+        margin-top: 0px;
+        padding: 0px 96px 0px 96px;
+      }
     }
     @include smallBreakpoint {
       padding: 32px;
@@ -68,6 +81,11 @@
         margin-top: 40px;
         border-left: 3px solid $text-primary;
         padding-left: 40px;
+
+        &--content-type-body {
+          border-left: none;
+          padding-left: 0px;
+        }
 
         &--large {
           font-size: 48px;

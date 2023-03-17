@@ -10,6 +10,7 @@
   import InteractiveComponent from "./pages/portfolio/InteractiveComponent.svelte";
   import PersonalPosters from "./pages/portfolio/PersonalPosters.svelte";
   import MartensCenter from "./pages/portfolio/MartensCenter.svelte";
+  import Iecam from "./pages/portfolio/Iecam.svelte";
 
   export let url = window.location.pathname;
 
@@ -51,6 +52,7 @@
   <Route path="/interactivecomponent"><InteractiveComponent /></Route>
   <Route path="/personalposters"><PersonalPosters /></Route>
   <Route path="/martenscenter"><MartensCenter /></Route>
+  <Route path="/iecam"><Iecam /></Route>
 </Router>
 
 <style lang="scss">
