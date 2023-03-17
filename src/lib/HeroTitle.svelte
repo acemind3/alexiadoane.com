@@ -55,6 +55,7 @@
     @include smallBreakpoint {
       align-items: center;
       padding-left: 0;
+      padding-top: 56px;
     }
 
     &__heading {
