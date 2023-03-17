@@ -44,7 +44,7 @@
     justify-items: center;
 
     @include smallBreakpoint {
-      padding: 0 $small-gutter-size;
+      padding: 0 16px;
       grid-template-columns: 1fr;
     }
 

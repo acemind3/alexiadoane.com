@@ -213,7 +213,7 @@
     margin-bottom: 125px;
 
     @include smallBreakpoint {
-      margin-top: 40;
+      margin-top: 24px;
       margin-bottom: 64px;
     }
   }
