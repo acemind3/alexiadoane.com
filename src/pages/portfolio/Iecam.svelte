@@ -98,7 +98,7 @@
     <div class="paragraph-spacer" slot="left">
       <p>
         I took my findings from the design gut test as well as any relevant
-        information our content strategist discovered during their discovery
+        information discovered by our content strategist during their discovery
         phase, and begin exploring design directions using design palettes.
         These palettes show just enough information for the client to understand
         how type styles, button styles, color schemes, design elements, and
@@ -129,10 +129,10 @@
   >
     <div class="paragraph-spacer" slot="left">
       <p>
-        With the approved design palette, I began on desinging the color
-        palette, type styles and buttons styles. These basic ideas then were
-        used in the creation of our reusable responsive basic component blocks
-        that would be used throughout the website.
+        With the approved design palette, I began on defining the colors, type
+        styles and buttons styles. These basic ideas were used in the creation
+        of our reusable responsive basic component blocks that would be used
+        throughout the website.
       </p>
     </div>
   </OneColumnContentBlock>
@@ -164,9 +164,9 @@
   >
     <div class="paragraph-spacer" slot="left">
       <p>
-        With consistant checkins and review with the client throughout the
-        system we had to created to design the homepage and other unique pages.
-        The content strategists worked with the client to figure out approrpiate
+        With consistant checkins and reviews with the client, we designed the
+        homepage and other unique pages using the system we designed. The
+        content strategists worked with the client to figure out approrpiate
         content and made quick wireframes. I used those wireframes to design the
         content types.
       </p>
