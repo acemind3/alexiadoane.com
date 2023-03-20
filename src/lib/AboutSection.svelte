@@ -18,9 +18,9 @@
   rightSectionItems={hobbies}
 >
   <p slot="left">
-    I'm an all around optimistic gal who likes anything and everything design.
-    When I'm not off perfecting my craft, I'm a musician, video gamer, board
-    game enthusiast, and adventurer.
+    I'm an all around optimistic artist who likes anything and everything
+    design. When I'm not off perfecting my craft, I'm a musician, video gamer,
+    board game enthusiast, and adventurer.
   </p>
 </TwoColumnContentBlock>
 
