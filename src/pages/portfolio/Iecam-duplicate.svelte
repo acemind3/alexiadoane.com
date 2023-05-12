@@ -25,7 +25,7 @@
     imagePosition="overlap"
   >
     <HeroTitle
-      websiteUrl="https://pixotech.com/"
+      websiteUrl="https://iecam.illinois.edu/"
       titleText="IECAM website"
       tags={["Website Design"]}
     />
